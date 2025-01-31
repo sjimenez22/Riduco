@@ -1,0 +1,21 @@
+main.products {
+   .btn-product {
+      color: $color__primary !important;
+      background-color: $color__third;
+      padding: 1rem;
+
+      &.active,
+      &:hover {
+         color: #fff !important;
+         background-color: $color__secondary !important;
+         border-color: $color__secondary !important;
+      }
+   }
+
+   .spinner-products {
+      .spinner-border {
+         height: 7em;
+         width: 7em;
+      }
+   }
+}

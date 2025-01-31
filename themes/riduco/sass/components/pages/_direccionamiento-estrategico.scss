@@ -1,0 +1,100 @@
+.direccionamiento-estrategico {
+   .img-mision-vision {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   .bg-sostenibilidad-empresarial {
+      background-color: #f4f4f4;
+      height: 400px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 100%;
+      z-index: -1;
+   }
+
+   .ctn-empresarial {
+      position: relative;
+
+      .triangle {
+         border-bottom: 50px solid transparent;
+         border-top: 50px solid transparent;
+         border-right: 40px solid $color__primary;
+         height: 0;
+         left: 48.5%;
+         position: absolute;
+         top: 50%;
+         transform: translate(0, -50%);
+         width: 0;
+      }
+   }
+
+   .box-rse {
+      border-radius: 30px;
+      display: flex;
+      height: auto;
+      justify-content: center;
+      position: relative;
+      width: 20%;
+
+      .text-description {
+         font-size: 14px;
+         padding-left: 25px;
+         padding-right: 1px;
+         text-align: left;
+      }
+
+      .triangle {
+         border-bottom: 20px solid transparent;
+         border-top: 20px solid transparent;
+         border-left: 20px solid $color__primary;
+         height: 0;
+         left: 0;
+         position: absolute;
+         top: 50%;
+         transform: translate(0, -50%);
+         width: 0;
+
+         &.secondary {
+            border-left: 20px solid $color__secondary;
+         }
+
+         &.third {
+            border-left: 20px solid $color__third;
+         }
+
+         &.fourth {
+            border-left: 20px solid $color__fourth;
+         }
+      }
+   }
+
+   .bg-gestion-comunidad {
+      background-repeat: no-repeat;
+      background-position: right;
+      height: 100%;
+      position: absolute;
+   }
+
+   .ctn-comunidad {
+      .triangle {
+         border-bottom: 25px solid transparent;
+         border-top: 25px solid transparent;
+         border-left: 20px solid $color__secondary;
+         height: 0;
+         right: -20px;
+         position: absolute;
+         top: 50%;
+         transform: translate(0, -50%);
+         width: 0;
+         z-index: 1;
+
+         &.third {
+            border-left: 20px solid $color__third;
+         }
+      }
+   }
+}

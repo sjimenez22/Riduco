@@ -1,0 +1,15 @@
+main.trabaje-con-nosotros {
+   .box-information {
+      border-radius: 25px;
+      height: 285px;
+
+      ul {
+         li {
+            &::marker {
+               color: $color__third;
+               font-size: 1.3rem;
+            }
+         }
+      }
+   }
+}

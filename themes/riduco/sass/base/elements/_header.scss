@@ -1,0 +1,24 @@
+header.site-header {
+   background-color: $color__secondary-08;
+   padding-top: 30px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+
+   ul {
+      li {
+         color: #fff !important;
+
+         a {
+            color: #fff !important;
+         }
+      }
+   }
+
+   &.scrolled {
+      background-color: $color__secondary;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+   }
+}

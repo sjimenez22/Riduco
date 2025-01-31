@@ -1,0 +1,28 @@
+main.extrusion {
+   .extrusion-laminas {
+      .border-lamina:first-child {
+         border-bottom: 1px solid #fff;
+         border-right: 1px solid #fff;
+      }
+
+      .border-lamina:nth-child(2) {
+         border-bottom: 1px solid #fff;
+         border-left: 1px solid #fff;
+      }
+
+      .border-lamina:nth-child(3) {
+         border-right: 1px solid #fff;
+         border-top: 1px solid #fff;
+      }
+
+      .border-lamina:last-child {
+         border-left: 1px solid #fff;
+         border-top: 1px solid #fff;
+      }
+   }
+
+   .border-ext-plastico {
+      border: 1px solid #BDBDBD;
+      border-radius: 25px;
+   }
+}

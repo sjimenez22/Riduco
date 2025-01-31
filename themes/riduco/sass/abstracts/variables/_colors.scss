@@ -1,0 +1,35 @@
+$color__background-body: #fff;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: #4169e1; //royalblue
+$color__link-visited: #800080; //purple
+$color__link-hover: #191970; //midnightblue
+$color__text-main: #404040;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+// Color palette
+$color__primary: #014f2a;
+$color__secondary: #029452;
+$color__third: #aacf0d;
+$color__fourth: #6fb539;
+
+// Color variations
+$color__secondary-08: rgba(2, 148, 82, 0.08);
+
+// Background colors
+$color__background-third-primary: linear-gradient(90deg, $color__third 50%, $color__primary 50%);
+$color__background-third-primary-mobile: linear-gradient(180deg, $color__third 50%, $color__primary 50%);
+$color__background-secondary-fourth: linear-gradient(90deg, $color__secondary 50%, $color__fourth 50%);
+$color__background-secondary-fourth-mobile: linear-gradient(180deg, $color__secondary 50%, $color__fourth 50%);

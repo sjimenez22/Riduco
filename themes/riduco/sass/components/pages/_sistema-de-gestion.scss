@@ -1,0 +1,65 @@
+main.sistema-de-gestion {
+   .box-rse {
+      border-radius: 30px;
+      display: flex;
+      height: auto;
+      justify-content: center;
+      position: relative;
+      width: 20%;
+
+      .title {
+         align-items: center;
+         background-color: $color__primary;
+         border-radius: 50%;
+         color: #fff;
+         display: flex;
+         height: 130px;
+         margin-bottom: 12px;
+         margin-top: -5rem;
+         width: 130px;
+
+         &.secondary {
+            background-color: $color__secondary;
+         }
+
+         &.third {
+            background-color: $color__third;
+         }
+
+         &.fourth {
+            background-color: $color__fourth;
+         }
+      }
+
+      .text-description {
+         font-size: 14px;
+         padding-left: 25px;
+         padding-right: 1px;
+         text-align: left;
+      }
+
+      .triangle {
+         border-bottom: 20px solid transparent;
+         border-top: 20px solid transparent;
+         border-left: 20px solid $color__primary;
+         height: 0;
+         left: 0;
+         position: absolute;
+         top: 50%;
+         transform: translate(0, -50%);
+         width: 0;
+
+         &.secondary {
+            border-left: 20px solid $color__secondary;
+         }
+
+         &.third {
+            border-left: 20px solid $color__third;
+         }
+
+         &.fourth {
+            border-left: 20px solid $color__fourth;
+         }
+      }
+   }
+}
