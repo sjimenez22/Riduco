@@ -1220,13 +1220,16 @@ main.extrusion .border-ext-plastico {
 	border-radius: 25px;
 }
 
-main.products .btn-product {
+main.products .btn-product,
+main.products .btn-sub-category {
 	color: #014f2a !important;
 	background-color: #aacf0d;
 	padding: 1rem;
 }
 
-main.products .btn-product.active, main.products .btn-product:hover {
+main.products .btn-product.active, main.products .btn-product:hover,
+main.products .btn-sub-category.active,
+main.products .btn-sub-category:hover {
 	color: #fff !important;
 	background-color: #029452 !important;
 	border-color: #029452 !important;

@@ -49,4 +49,30 @@ $products = new WP_Query($argsProducts);
          </div>
       <?php endwhile; ?>
    </div>
-<?php endif; ?>
+
+   <nav>
+      <ul class="pagination justify-content-center">
+         <?php
+         $big = 999999999; // Número grande para reemplazar en paginate_links()
+         $pages = paginate_links([
+            'base'      => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+            'format'    => '?paged=%#%',
+            'current'   => max(1, get_query_var('paged')),
+            'total'     => $products->max_num_pages,
+            'prev_text' => '&laquo;',
+            'next_text' => '&raquo;',
+            'type'      => 'array'
+         ]);
+
+         if ($pages) :
+            foreach ($pages as $page) {
+               echo '<li class="page-item">' . str_replace('page-numbers', 'page-link', $page) . '</li>';
+            }
+         endif;
+         ?>
+      </ul>
+   </nav>
+<?php
+   wp_reset_postdata();
+endif;
+?>

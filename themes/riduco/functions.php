@@ -241,3 +241,13 @@ function cc_mime_types($mimes)
 	return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
+
+function reescribir_urls_productos()
+{
+	add_rewrite_rule(
+		'^productos/page/([0-9]+)/?$',
+		'index.php?pagename=productos&paged=$matches[1]',
+		'top'
+	);
+}
+add_action('init', 'reescribir_urls_productos');

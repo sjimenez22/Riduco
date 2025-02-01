@@ -1,5 +1,6 @@
 main.products {
-   .btn-product {
+   .btn-product,
+   .btn-sub-category {
       color: $color__primary !important;
       background-color: $color__third;
       padding: 1rem;

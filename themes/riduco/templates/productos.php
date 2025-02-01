@@ -13,7 +13,8 @@
 $args = array(
    'taxonomy' => 'product_category',
    'orderby' => 'name',
-   'order'   => 'ASC'
+   'order'   => 'ASC',
+   'parent'  => 0
 );
 $cats = get_categories($args);
 
@@ -29,7 +30,7 @@ get_header();
    ?>
 
    <div class="container my-4 my-5">
-      <div class="row">
+      <div class="row mb-4">
          <div class="col-12">
             <h2 class="text-primary fw-bold text-center display-5">
                Conoce nuestros productos
@@ -40,11 +41,13 @@ get_header();
             <button class="btn btn-product active" data-slug="all">Todos</button>
 
             <?php foreach ($cats as $category) : ?>
-               <?php if (!$category->category_parent) : ?>
-                  <button class="btn btn-product" data-slug="<?php echo esc_html($category->slug); ?>"><?php echo esc_html($category->name); ?></button>
-               <?php endif; ?>
+               <button class="btn btn-product" data-slug="<?php echo esc_html($category->slug); ?>"><?php echo esc_html($category->name); ?></button>
             <?php endforeach; ?>
 
+         </div>
+
+         <div class="col-12 d-flex justify-content-center mt-4 sub-categories d-none">
+            <?php get_template_part('components/product/product', 'sub-category'); ?>
          </div>
       </div>
 
