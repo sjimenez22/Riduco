@@ -1,8 +1,9 @@
 <?php
 $title = 'Nuestros clientes';
 $colorText = 'text-primary';
-if ($args['title']) $title = $args['title'];
-if ($args['color']) $colorText = $args['color'];
+
+if (isset($args['title'])) $title = $args['title'];
+if (isset($args['color'])) $colorText = $args['color'];
 ?>
 
 <div class="container my-5">

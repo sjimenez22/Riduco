@@ -192,6 +192,10 @@ function riduco_scripts()
 		wp_enqueue_script('products-js', get_template_directory_uri() . '/js/products.js', array(), '1.0.0', true);
 	}
 
+	if (is_page_template('templates/sectores.php')) {
+		wp_enqueue_script('sectors-js', get_template_directory_uri() . '/js/sectors.js', array(), '1.0.0', true);
+	}
+
 	wp_localize_script(
 		'main-js',
 		'ajax_bones',

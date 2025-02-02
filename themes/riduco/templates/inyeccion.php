@@ -83,36 +83,44 @@ get_header();
                   </thead>
                   <tbody class="text-center">
                      <tr>
-                        <td class="fw-bold text-primary">7 - 100 Ton</td>
+                        <td class="fw-bold text-primary">A (7 - 100 TON)</td>
                         <td class="fw-bold text-primary">6</td>
                      </tr>
                      <tr>
-                        <td class="fw-bold text-primary">110 - 250 Ton</td>
-                        <td class="fw-bold text-primary">11</td>
+                        <td class="fw-bold text-primary">B (110 - 250 TON)</td>
+                        <td class="fw-bold text-primary">5</td>
                      </tr>
                      <tr>
-                        <td class="fw-bold text-primary">280 - 390 Ton</td>
-                        <td class="fw-bold text-primary">24</td>
+                        <td class="fw-bold text-primary">C (280 - 390 TON)</td>
+                        <td class="fw-bold text-primary">15</td>
                      </tr>
                      <tr>
-                        <td class="fw-bold text-primary">400 - 600 Ton</td>
+                        <td class="fw-bold text-primary">D (400 - 600 TON)</td>
                         <td class="fw-bold text-primary">7</td>
                      </tr>
                      <tr>
-                        <td class="fw-bold text-primary">650 - 1200 Ton</td>
+                        <td class="fw-bold text-primary">E (650 - 1200 TON)</td>
                         <td class="fw-bold text-primary">13</td>
                      </tr>
                      <tr>
-                        <td class="fw-bold text-primary">1500 - 1750 Ton</td>
-                        <td class="fw-bold text-primary">4</td>
-                     </tr>
-                     <tr>
-                        <td class="fw-bold text-primary">3000 - 4000 Ton</td>
+                        <td class="fw-bold text-primary">F (1500 - 2100 TON)</td>
                         <td class="fw-bold text-primary">2</td>
                      </tr>
                      <tr>
+                        <td class="fw-bold text-primary">G (4000 TON)</td>
+                        <td class="fw-bold text-primary">1</td>
+                     </tr>
+                     <tr>
+                        <td class="fw-bold text-primary">J (MAQ INY ASEPSIA)</td>
+                        <td class="fw-bold text-primary">16</td>
+                     </tr>
+                     <tr>
+                        <td class="fw-bold text-primary">H (MAQ INY MEDELLÍN 1100A - 1600A - 1600B - 3000)</td>
+                        <td class="fw-bold text-primary">4</td>
+                     </tr>
+                     <tr>
                         <td class="fw-bold text-primary">Total</td>
-                        <td class="fw-bold text-primary">67</td>
+                        <td class="fw-bold text-primary">69</td>
                      </tr>
                   </tbody>
                </table>

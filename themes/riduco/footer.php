@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -11,24 +12,66 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'riduco' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'riduco' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'riduco' ), 'riduco', '<a href="http://underscores.me/">Riduco</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<footer id="colophon" class="site-footer py-4 mt-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-3 align-self-center text-center">
+				<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-verde-riduco-e1738529807917.png" alt="Riduco" class="img-fluid">
+				<p class="mt-1 text-secondary">Copyright Riduco</p>
+			</div>
+			<div class="col-12 col-md-3">
+				<p class="fw-bold fs-5">Contacto general</p>
+
+				<ul>
+					<li>
+						(57)(606) 8741010 Ext 1119
+					</li>
+					<li>
+						<a href="mailto:comercial@riduco.com">comercial@riduco.com</a>
+					</li>
+					<li>
+						Cra. 32 No. 107 - 17 La Enea
+					</li>
+				</ul>
+			</div>
+			<div class="col-12 col-md-3">
+				<p class="fw-bold fs-5">Contacto ventas linea industrial</p>
+
+				<ul>
+					<li>
+						(57)(606) 8741010 Ext 1118
+					</li>
+					<li>
+						<a href="mailto:lineaindustrial@riduco.com">lineaindustrial@riduco.com</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-12 col-md-3">
+				<p class="fw-bold fs-5">Síguenos</p>
+
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/pages/Riduco/208838349139595" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-facebook.png" alt="Facebook" class="img-fluid">
+							<span class="ms-2">Riduco</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row pt-3 second-footer">
+			<div class="col-12 text-center">
+				<p class="mb-1">Manizales - Caldas - Colombia - Sur América</p>
+				<p class="mb-0">Todos los derechos reservados 2019 - Powered by Am Coppiano (O RIDUCO)</p>
+			</div>
+		</div>
+	</div>
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>

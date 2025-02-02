@@ -1,0 +1,29 @@
+footer {
+   background-color: #ededed;
+   color: #747474;
+
+   ul {
+      margin-left: 0;
+      padding-left: 0;
+
+      li {
+         list-style: none;
+         line-height: 2.5;
+
+         a {
+            color: #747474;
+            text-decoration: none;
+
+            &:hover,
+            &:visited {
+               color: #747474;
+               text-decoration: none;
+            }
+         }
+      }
+   }
+
+   .second-footer {
+      border-top: 1px solid #747474;
+   }
+}
