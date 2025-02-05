@@ -84,7 +84,7 @@ get_header();
 
    <div class="bg-secondary">
       <div class="container py-4">
-         <div class="row">
+         <div class="row py-3 py-md-5">
             <div class="col-12 col-md-6">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/gestion-social.png" alt="Gestión Social" class="img-fluid">
             </div>
@@ -295,7 +295,7 @@ get_header();
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/icono-voluntariado.png" alt="VOLUNTARIADO CORPORATIVO" class="img-fluid mb-3">
 
                <h2 class="fw-bold fs-3 mb-3">VOLUNTARIADO CORPORATIVO</h2>
-               <p>
+               <p class="px-md-2">
                   Promovemos el voluntariado en los trabajadores para que aporten de su tiempo laboral, apoyo logístico y pedagógico en los 17 talleres de proyecto de vida para las madres gestantes que agrupa la Corporación de La Sagrada Familia.
                </p>
 
@@ -305,7 +305,7 @@ get_header();
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/icono-donaciones.png" alt="DONACIONES" class="img-fluid mb-3">
 
                <h2 class="fw-bold fs-3 mb-3">DONACIONES</h2>
-               <p>
+               <p class="ps-md-2">
                   La junta directiva de RIDUCO asigna las donaciones anuales de las utilidades. Se realizan donaciones en especie y en dinero a entidades sin ánimo de lucro de población vulnerable, entidades educativas de bajos recursos y para incentivar la educación musical en la población infantil.
                </p>
             </div>

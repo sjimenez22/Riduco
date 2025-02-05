@@ -742,6 +742,7 @@ textarea {
 }
 
 .bg-img-banner .title {
+	margin-top: -6rem;
 	width: 400px;
 }
 
@@ -1423,9 +1424,18 @@ main.home .ctn-blogs .blogs .text-category {
 	font-size: 12px;
 }
 
+main.home .ctn-blogs .blogs .text-excerpt {
+	height: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 @media screen and (max-width: 767px) {
 	main.home .ctn-blogs {
 		margin-top: -2rem;
+	}
+	main.home .ctn-blogs .text-excerpt {
+		height: auto !important;
 	}
 }
 

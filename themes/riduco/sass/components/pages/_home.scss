@@ -14,10 +14,20 @@ main.home {
          .text-category {
             font-size: 12px;
          }
+
+         .text-excerpt {
+            height: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
       }
 
       @media screen and (max-width: 767px) {
          margin-top: -2rem;
+
+         .text-excerpt {
+            height: auto !important;
+         }
       }
    }
 

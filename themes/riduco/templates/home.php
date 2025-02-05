@@ -25,13 +25,13 @@ get_header();
       <div class="row justify-content-center">
          <div class="col-12 col-md-9">
             <div class="row ctn-blogs">
-               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-auto">
+               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-0">
                   <div class="blogs">
                      <p class="py-3 py-md-5 text-primary fw-bold text-category mb-0">Categoría</p>
 
                      <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
 
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
+                     <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
 
                      <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
@@ -40,13 +40,13 @@ get_header();
                      </div>
                   </div>
                </div>
-               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-auto">
+               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-0">
                   <div class="blogs">
-                     <p class="py-5 text-primary fw-bold text-category">Categoría</p>
+                     <p class="py-3 py-md-5 text-primary fw-bold text-category mb-0">Categoría</p>
 
                      <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
 
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
+                     <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
 
                      <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
@@ -55,13 +55,13 @@ get_header();
                      </div>
                   </div>
                </div>
-               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-auto">
+               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-0">
                   <div class="blogs">
-                     <p class="py-5 text-primary fw-bold text-category">Categoría</p>
+                     <p class="py-3 py-md-5 text-primary fw-bold text-category mb-0">Categoría</p>
 
                      <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
 
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at</p>
+                     <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at</p>
 
                      <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
