@@ -32,11 +32,11 @@ get_header();
       </div>
 
       <div class="row row-cols-1 row-cols-md-2 g-1 g-md-3 mt-4 mt-md-5">
-         <div class="col">
+         <div class="col mb-4 mb-md-0">
             <div class="box-information bg-secondary py-4 py-md-5">
                <h2 class="fw-bold text-third text-center fs-1 mb-2">Nuestros beneficios:</h2>
 
-               <ul class="text-white mt-5 fs-5">
+               <ul class="text-white mt-1 mt-md-5 fs-5">
                   <li>
                      Flexibilidad horaria
                   </li>

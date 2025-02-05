@@ -15,11 +15,11 @@
 <footer id="colophon" class="site-footer py-4 mt-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-3 align-self-center text-center">
+			<div class="col-12 col-md-6 col-lg-3 align-self-center text-center order-4 order-md-1 mt-4 mt-md-none">
 				<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-verde-riduco-e1738529807917.png" alt="Riduco" class="img-fluid">
 				<p class="mt-1 text-secondary">Copyright Riduco</p>
 			</div>
-			<div class="col-12 col-md-3">
+			<div class="col-12 col-md-6 col-lg-3 text-center text-lg-start order-1 order-md-2">
 				<p class="fw-bold fs-5">Contacto general</p>
 
 				<ul>
@@ -34,7 +34,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-12 col-md-3">
+			<div class="col-12 col-md-6 col-lg-3 text-center text-lg-start order-2 order-md-3">
 				<p class="fw-bold fs-5">Contacto ventas linea industrial</p>
 
 				<ul>
@@ -46,12 +46,12 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-12 col-md-3">
+			<div class="col-12 col-md-6 col-lg-3 text-center text-lg-start order-3 order-md-4">
 				<p class="fw-bold fs-5">Síguenos</p>
 
 				<ul>
 					<li>
-						<a href="https://www.facebook.com/pages/Riduco/208838349139595" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center">
+						<a href="https://www.facebook.com/pages/Riduco/208838349139595" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center justify-content-lg-start">
 							<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-facebook.png" alt="Facebook" class="img-fluid">
 							<span class="ms-2">Riduco</span>
 						</a>

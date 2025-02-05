@@ -43,12 +43,12 @@ get_header();
       <div class="row history position-relative">
          <div class="line"></div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="1957" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">1957</span>
             </div>
 
-            <div data-year="1957" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="1957" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">1957</p>
 
                <p>
@@ -59,12 +59,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="1964" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">1964</span>
             </div>
 
-            <div data-year="1964" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="1964" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">1964</p>
 
                <p>
@@ -75,12 +75,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="1969" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">1969</span>
             </div>
 
-            <div data-year="1969" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="1969" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">1969</p>
 
                <p>
@@ -91,12 +91,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="1973" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">1973</span>
             </div>
 
-            <div data-year="1973" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="1973" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">1973</p>
 
                <p>
@@ -107,12 +107,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="1974" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">1974</span>
             </div>
 
-            <div data-year="1974" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="1974" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">1974</p>
 
                <p>
@@ -123,12 +123,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="1978" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">1978</span>
             </div>
 
-            <div data-year="1978" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="1978" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">1978</p>
 
                <p>
@@ -139,12 +139,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="1979" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">1979</span>
             </div>
 
-            <div data-year="1979" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="1979" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">1979</p>
 
                <p>
@@ -155,12 +155,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="1980" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">1980</span>
             </div>
 
-            <div data-year="1980" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="1980" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">1980</p>
 
                <p>
@@ -171,12 +171,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="1983" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">1983</span>
             </div>
 
-            <div data-year="1983" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="1983" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">1983</p>
 
                <p>
@@ -187,12 +187,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="1984" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">1984</span>
             </div>
 
-            <div data-year="1984" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="1984" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">1984</p>
 
                <p>
@@ -203,12 +203,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="1988" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">1988</span>
             </div>
 
-            <div data-year="1988" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="1988" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">1988</p>
 
                <p>
@@ -219,12 +219,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="1994" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">1994</span>
             </div>
 
-            <div data-year="1994" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="1994" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">1994</p>
 
                <p>
@@ -237,12 +237,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="1996" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">1996</span>
             </div>
 
-            <div data-year="1996" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="1996" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">1996</p>
 
                <p>
@@ -253,12 +253,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="2003" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">2003</span>
             </div>
 
-            <div data-year="2003" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="2003" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">2003</p>
 
                <p>
@@ -269,12 +269,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="2005" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">2005</span>
             </div>
 
-            <div data-year="2005" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="2005" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">2005</p>
 
                <p>
@@ -285,12 +285,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="2006" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">2006</span>
             </div>
 
-            <div data-year="2006" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="2006" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">2006</p>
 
                <p>
@@ -301,12 +301,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="2007" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">2007</span>
             </div>
 
-            <div data-year="2007" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="2007" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">2007</p>
 
                <p>
@@ -318,12 +318,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="2008" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">2008</span>
             </div>
 
-            <div data-year="2008" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="2008" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">2008</p>
 
                <p>
@@ -334,12 +334,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="2013" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">2013</span>
             </div>
 
-            <div data-year="2013" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="2013" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">2013</p>
 
                <p>
@@ -350,12 +350,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="2014" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">2014</span>
             </div>
 
-            <div data-year="2014" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="2014" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">2014</p>
 
                <p>
@@ -366,12 +366,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 offset-md-6 position-relative box-history">
+         <div class="col-6 offset-6 position-relative box-history">
             <div data-year="2019" class="year-circle right">
                <span class="text-white display-5 text-decoration-underline fw-bold">2019</span>
             </div>
 
-            <div data-year="2019" class="information right text-primary ps-5 ms-5 d-none">
+            <div data-year="2019" class="information right text-primary ps-md-5 ms-md-5 d-none">
                <p class="display-2 fw-bold">2019</p>
 
                <p>
@@ -382,12 +382,12 @@ get_header();
             </div>
          </div>
 
-         <div class="col-12 col-md-6 px-0 justify-content-end d-flex position-relative box-history">
+         <div class="col-6 px-0 justify-content-end d-flex position-relative box-history">
             <div data-year="2022" class="year-circle left">
                <span class="text-white display-5 text-decoration-underline fw-bold">2022</span>
             </div>
 
-            <div data-year="2022" class="information left text-primary pe-5 me-5 d-none">
+            <div data-year="2022" class="information left text-primary pe-md-5 me-md-5 d-none">
                <p class="display-2 fw-bold">2022</p>
 
                <p>

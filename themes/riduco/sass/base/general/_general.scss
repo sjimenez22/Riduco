@@ -21,16 +21,29 @@
       width: 400px;
    }
 
-   @media screen and (max-width: 767px) {
-      height: 50vh;
+   @media screen and (min-width: 768px) and (max-width: 992px) {
+      height: 60vh;
 
       .bg-overlay {
-         height: 50vh;
+         height: 60vh;
       }
 
       .title {
+         margin-top: -7rem;
+      }
+   }
+
+   @media screen and (max-width: 767px) {
+      height: 40vh;
+
+      .bg-overlay {
+         height: 40vh;
+      }
+
+      .title {
+         margin-top: -3rem;
+         text-align: center;
          width: 100%;
-         margin-top: -6rem;
       }
    }
 }

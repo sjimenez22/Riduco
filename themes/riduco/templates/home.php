@@ -25,7 +25,22 @@ get_header();
       <div class="row justify-content-center">
          <div class="col-12 col-md-9">
             <div class="row ctn-blogs">
-               <div class="col-12 col-md-4 position-relative">
+               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-auto">
+                  <div class="blogs">
+                     <p class="py-3 py-md-5 text-primary fw-bold text-category mb-0">Categoría</p>
+
+                     <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
+
+                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
+
+                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
+
+                     <div class="text-end mt-4">
+                        <a href="#" class="text-third">Seguir leyendo</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-auto">
                   <div class="blogs">
                      <p class="py-5 text-primary fw-bold text-category">Categoría</p>
 
@@ -33,29 +48,14 @@ get_header();
 
                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
 
-                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid">
+                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
                      <div class="text-end mt-4">
                         <a href="#" class="text-third">Seguir leyendo</a>
                      </div>
                   </div>
                </div>
-               <div class="col-12 col-md-4 position-relative">
-                  <div class="blogs">
-                     <p class="py-5 text-primary fw-bold text-category">Categoría</p>
-
-                     <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
-
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
-
-                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid">
-
-                     <div class="text-end mt-4">
-                        <a href="#" class="text-third">Seguir leyendo</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-12 col-md-4 position-relative">
+               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-auto">
                   <div class="blogs">
                      <p class="py-5 text-primary fw-bold text-category">Categoría</p>
 
@@ -63,7 +63,7 @@ get_header();
 
                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at</p>
 
-                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid">
+                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
                      <div class="text-end mt-4">
                         <a href="#" class="text-third">Seguir leyendo</a>
@@ -79,7 +79,7 @@ get_header();
       </div>
 
       <div class="row">
-         <div class="col-12 text-primary text-center mt-4 mt-md-5">
+         <div class="col-12 text-primary text-center mt-4 mt-md-5 px-2 px-md-auto">
             <p>
                Somos líderes en inyección de plástico. Con más de 55 años de experiencia, Riduco se ha posicionado como un referente en la industria del plástico, destacándose por su búsqueda constante de la excelencia, que se manifiesta en la calidad, la innovación y la sostenibilidad de nuestros productos y procesos.Nuestra trayectoria, nos ha permitido desarrollar una amplia gama de productos plásticos inyectados, diseñados para satisfacer las necesidades de diversos sectores industriales.
             </p>
@@ -93,22 +93,23 @@ get_header();
 
    <div class="bg-secondary mision">
       <div class="container">
-         <div class="row py-4 position-relative">
-            <div class="col-12 col-md-4">
+         <div class="row pt-4 py-lg-4 position-relative">
+            <div class="col-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-auto">
                <h2 class="fw-bold fs-4 text-third">Misión</h2>
 
                <p class="text-white">
                   Riduco S.A es una empresa manufacturera con conocimiento técnico, experiencia y tecnología de punta; dedicada a la fabricación y comercialización de productos plásticos inyectados y extruídos, que garantiza a sus clientes calidad, confidencialidad, entrega oportuna, apoyo técnico, un equipo humano competente, compromiso con el desarrollo sostenible y a sus accionistas el retorno de la inversión con crecimiento permanente, mejora continua, eficiencia y productividad.
                </p>
             </div>
-            <div class="col-12 col-md-4 offset-md-4">
+
+            <div class="col-12 col-lg-4 offset-lg-4 text-center text-lg-start">
                <h2 class="fw-bold fs-4 text-third">Visión</h2>
                <p class="text-white">
                   Para el 2030, RIDUCO se mantendrá como una empresa de clase mundial, comprometida con el desarrollo sostenible, incrementando la rentabilidad y la participación en el mercado, como aliado estratégico de sus clientes, a través de la excelencia operacional y un equipo humano competente.
                </p>
             </div>
 
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/mision-vision-home-e1738514187952.png" alt="Misión y visión" class="img-mision">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/mision-vision-home-e1738514187952.png" alt="Misión y visión" class="img-mision mt-md-4 mt-lg-none">
          </div>
       </div>
    </div>
@@ -152,9 +153,9 @@ get_header();
             </div>
 
             <div class="col-12 col-md-6 align-self-center py-4">
-               <h2 class="text-third fw-bold">Dónde estamos hoy</h2>
+               <h2 class="text-third fw-bold text-center text-md-start">Dónde estamos hoy</h2>
 
-               <p class="text-white">
+               <p class="text-white text-center text-md-start">
                   A lo largo de más de 50 años de existencia, RIDUCO se ha caracterizado por estar presente en sectores claves de la economía nacional, acompañando siempre las necesidades de los clientes y las tendencias del mercado.
                </p>
 
@@ -208,7 +209,7 @@ get_header();
             </h2>
          </div>
 
-         <div class="col-12 col-md-9 ctn-cerficates">
+         <div class="col-12 col-md-9 ctn-cerficates d-block d-md-flex align-items-center justify-content-between">
             <div class="certificates">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-iso-9001.png" alt="ISO 9001" class="img-fluid">
                <p class="text-secondary fw-bold fs-5">IATF 16949</p>

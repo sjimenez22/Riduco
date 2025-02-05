@@ -479,7 +479,8 @@ header.site-header ul li {
 	color: #fff !important;
 }
 
-header.site-header ul li a {
+header.site-header ul li a,
+header.site-header ul li a:visited {
 	color: #fff !important;
 }
 
@@ -498,6 +499,40 @@ header.site-header.scrolled {
 	background-color: #029452;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 	transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 992px) {
+	header.site-header {
+		font-size: 20px;
+	}
+	header.site-header .offcanvas {
+		width: 100%;
+	}
+	header.site-header .offcanvas .offcanvas-body {
+		background-color: #d9d9d9;
+	}
+	header.site-header .offcanvas .offcanvas-body ul.navbar-nav {
+		text-align: center;
+		margin-left: 0;
+	}
+	header.site-header .offcanvas .offcanvas-body ul.navbar-nav li {
+		color: #014f2a !important;
+	}
+	header.site-header .offcanvas .offcanvas-body ul.navbar-nav li a,
+	header.site-header .offcanvas .offcanvas-body ul.navbar-nav li a:visited {
+		color: #014f2a !important;
+	}
+	header.site-header .dropdown-menu {
+		background: none;
+		border: unset;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	header.site-header .custom-logo {
+		width: 200px;
+	}
 }
 
 hr {
@@ -710,16 +745,29 @@ textarea {
 	width: 400px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 	.bg-img-banner {
-		height: 50vh;
+		height: 60vh;
 	}
 	.bg-img-banner .bg-overlay {
-		height: 50vh;
+		height: 60vh;
 	}
 	.bg-img-banner .title {
+		margin-top: -7rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.bg-img-banner {
+		height: 40vh;
+	}
+	.bg-img-banner .bg-overlay {
+		height: 40vh;
+	}
+	.bg-img-banner .title {
+		margin-top: -3rem;
+		text-align: center;
 		width: 100%;
-		margin-top: -6rem;
 	}
 }
 
@@ -1161,6 +1209,35 @@ main.trabaje-con-nosotros .box-information ul li::marker {
 	font-size: 1.3rem;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	main.trabaje-con-nosotros .box-information {
+		height: 310px;
+	}
+	main.trabaje-con-nosotros .box-information ul {
+		padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	main.trabaje-con-nosotros .box-information {
+		height: 380px;
+		padding-inline: 5px;
+	}
+	main.trabaje-con-nosotros .box-information ul {
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	main.trabaje-con-nosotros .box-information {
+		height: auto;
+		padding-inline: 5px;
+	}
+	main.trabaje-con-nosotros .box-information ul {
+		padding-left: 0;
+	}
+}
+
 main.nuestra-historia .history .line {
 	background-color: #029452;
 	height: 100%;
@@ -1231,6 +1308,51 @@ main.nuestra-historia .history .box-history:last-child .information {
 	top: auto;
 }
 
+@media screen and (max-width: 767px) {
+	main.nuestra-historia .history .box-history .year-circle {
+		width: 100px;
+		height: 200px;
+	}
+	main.nuestra-historia .history .box-history .year-circle.left {
+		border-top-left-radius: 200px;
+		border-bottom-left-radius: 200px;
+	}
+	main.nuestra-historia .history .box-history .year-circle.left.active {
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+	main.nuestra-historia .history .box-history .year-circle.right {
+		border-top-right-radius: 200px;
+		border-bottom-right-radius: 200px;
+	}
+	main.nuestra-historia .history .box-history .year-circle.right.active {
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+	}
+	main.nuestra-historia .history .box-history .year-circle.active {
+		width: 20px;
+	}
+	main.nuestra-historia .history .box-history .information {
+		font-size: 12px;
+	}
+	main.nuestra-historia .history .box-history .information.right {
+		padding-left: 2rem !important;
+		padding-right: 0.5rem !important;
+	}
+	main.nuestra-historia .history .box-history .information.left {
+		padding-left: 0.5rem !important;
+		padding-right: 2rem !important;
+	}
+	main.nuestra-historia .history .box-history .information .display-2 {
+		font-size: 2rem !important;
+		margin-bottom: 0;
+	}
+	main.nuestra-historia .history .box-history .information img {
+		border-radius: 20px;
+		width: 150px;
+	}
+}
+
 main.extrusion .extrusion-laminas .border-lamina:first-child {
 	border-bottom: 1px solid #fff;
 	border-right: 1px solid #fff;
@@ -1252,8 +1374,15 @@ main.extrusion .extrusion-laminas .border-lamina:last-child {
 }
 
 main.extrusion .border-ext-plastico {
-	border: 1px solid #BDBDBD;
+	border: 1px solid #bdbdbd;
 	border-radius: 25px;
+}
+
+@media screen and (max-width: 767px) {
+	main.extrusion .border-ext-plastico img {
+		margin-bottom: 1rem;
+		width: 200px;
+	}
 }
 
 main.products .btn-product,
@@ -1294,6 +1423,12 @@ main.home .ctn-blogs .blogs .text-category {
 	font-size: 12px;
 }
 
+@media screen and (max-width: 767px) {
+	main.home .ctn-blogs {
+		margin-top: -2rem;
+	}
+}
+
 main.home .mision {
 	margin-top: 250px;
 }
@@ -1304,6 +1439,16 @@ main.home .mision .img-mision {
 	position: absolute;
 	transform: translate(-50%, 0);
 	width: 550px;
+}
+
+@media screen and (max-width: 992px) {
+	main.home .mision {
+		margin-top: 2rem;
+	}
+	main.home .mision .img-mision {
+		position: relative;
+		width: 300px;
+	}
 }
 
 main.home .unidades-negocio {
@@ -1344,10 +1489,12 @@ main.home .unidades-negocio .image:hover img {
 	transform: scaleX(1.1);
 }
 
-main.home .ctn-cerficates {
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
+@media screen and (max-width: 767px) {
+	main.home .unidades-negocio {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		height: auto;
+	}
 }
 
 main.home .ctn-cerficates .certificates {
@@ -1357,6 +1504,12 @@ main.home .ctn-cerficates .certificates {
 main.home .ctn-cerficates .certificates img {
 	object-fit: contain;
 	aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 767px) {
+	main.home .ctn-cerficates img {
+		width: 300px;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -12302,6 +12455,48 @@ fieldset:disabled .btn {
 	}
 	.d-print-none {
 		display: none !important;
+	}
+}
+
+.fade {
+	transition: opacity 0.15s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.fade {
+		transition: none;
+	}
+}
+
+.fade:not(.show) {
+	opacity: 0;
+}
+
+.collapse:not(.show) {
+	display: none;
+}
+
+.collapsing {
+	height: 0;
+	overflow: hidden;
+	transition: height 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.collapsing {
+		transition: none;
+	}
+}
+
+.collapsing.collapse-horizontal {
+	width: 0;
+	height: auto;
+	transition: width 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.collapsing.collapse-horizontal {
+		transition: none;
 	}
 }
 

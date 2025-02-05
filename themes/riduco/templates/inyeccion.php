@@ -24,7 +24,7 @@ get_header();
    <div class="bg-secondary">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mb-3 mb-md-0 align-self-md-center align-self-lg-start">
                <section class="splide splide-maquinas" aria-label="Carrusel de máquinas">
                   <div class="splide__track">
                      <ul class="splide__list">
@@ -41,7 +41,7 @@ get_header();
                   </div>
                </section>
             </div>
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center py-md-4 py-lg-0">
                <h2 class="fw-bold text-third">Máquinas</h2>
 
                <ul class="text-white ps-0 ms-4">
@@ -72,7 +72,7 @@ get_header();
 
    <div class="container my-4 my-md-5">
       <div class="row">
-         <div class="col-12 col-md-6">
+         <div class="col-12 col-md-6 mb-3 mb-md-0">
             <div class="table-responsive">
                <table class="table table-striped">
                   <thead class="text-center">
@@ -174,7 +174,7 @@ get_header();
    <div class="bg-primary">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center order-2 order-md-1 py-md-4 py-lg-0">
                <h2 class="fw-bold text-third">Robots</h2>
 
                <p class="text-white">
@@ -193,7 +193,7 @@ get_header();
                </ul>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 order-1 order-md-2 mb-3 mb-md-0 align-self-md-center align-self-lg-start">
                <section class="splide splide-robots" aria-label="Carrusel de Robots">
                   <div class="splide__track">
                      <ul class="splide__list">
@@ -214,10 +214,10 @@ get_header();
       </div>
    </div>
 
-   <div class="bg-fourth mt-4">
+   <div class="bg-fourth mt-0 mt-md-4">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mb-3 mb-md-0 align-self-md-center align-self-lg-start">
                <section class="splide splide-perifericos" aria-label="Carrusel de Periféricos">
                   <div class="splide__track">
                      <ul class="splide__list">
@@ -235,7 +235,7 @@ get_header();
                </section>
             </div>
 
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center py-md-4 py-lg-0">
                <h2 class="fw-bold text-primary">Periféricos</h2>
 
                <ul class="text-primary ps-0 ms-4">
@@ -264,10 +264,10 @@ get_header();
       </div>
    </div>
 
-   <div class="bg-primary mt-4">
+   <div class="bg-primary mt-0 mt-md-4">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center order-2 order-md-1 py-md-4 py-lg-0">
                <h2 class="fw-bold text-third">Complementarios</h2>
 
                <ul class="text-white ps-0 ms-4">
@@ -285,7 +285,7 @@ get_header();
                </ul>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 order-1 order-md-2 mb-3 mb-md-0 align-self-md-center align-self-lg-start">
                <section class="splide splide-complementarios" aria-label="Carrusel de Complementarios">
                   <div class="splide__track">
                      <ul class="splide__list">

@@ -24,7 +24,7 @@ get_header();
    <div class="bg-secondary">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mb-3 mb-md-0 align-self-md-center align-self-lg-start">
                <section class="splide splide-extrusion-laminas" aria-label="Carrusel de Fabricación, mantenimiento y diseño">
                   <div class="splide__track">
                      <ul class="splide__list">
@@ -42,7 +42,7 @@ get_header();
                </section>
             </div>
 
-            <div class="col-12 col-md-6 align-self-center ps-md-4">
+            <div class="col-12 col-md-6 align-self-center ps-md-4 py-md-4">
                <h2 class="fw-bold text-third">Extrusión de láminas rígidas</h2>
 
                <div class="row mt-3 mt-md-5 extrusion-laminas">
@@ -109,13 +109,13 @@ get_header();
          </div>
       </div>
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center px-3 px-md-0">
          <div class="col-12 col-md-9">
             <div class="row border-ext-plastico px-3 py-3">
-               <div class="col-4 align-self-center">
+               <div class="col-12 col-md-4 align-self-center text-center">
                   <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
                </div>
-               <div class="col-8 align-self-center">
+               <div class="col-12 col-md-8 align-self-center">
                   <h3 class="text-third fw-bold">Rollo burbuja pequeña</h3>
 
                   <p class="text-primary fs-5 mb-0">
@@ -131,10 +131,10 @@ get_header();
 
          <div class="col-12 col-md-9 mt-3">
             <div class="row border-ext-plastico px-3 py-3">
-               <div class="col-4 align-self-center">
+               <div class="col-12 col-md-4 align-self-center text-center">
                   <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
                </div>
-               <div class="col-8 align-self-center">
+               <div class="col-12 col-md-8 align-self-center">
                   <h3 class="text-third fw-bold">Rollo burbuja grande</h3>
 
                   <p class="text-primary fs-5 mb-0">
@@ -150,15 +150,15 @@ get_header();
       </div>
    </div>
 
-   <div class="bg-primary py-4 py-md-5">
+   <div class="bg-primary py-4 py-md-5 px-3 px-md-0">
       <div class="container">
          <div class="row justify-content-center">
             <div class="col-12 col-md-9">
                <div class="row border-ext-plastico px-3 py-3">
-                  <div class="col-4 align-self-center">
+                  <div class="col-12 col-md-4 align-self-center text-center">
                      <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
                   </div>
-                  <div class="col-8 align-self-center">
+                  <div class="col-12 col-md-8 align-self-center">
                      <h3 class="text-third fw-bold">Bolsas en plástico burbuja grande</h3>
 
                      <p class="text-white fs-5 mb-0">
@@ -174,10 +174,10 @@ get_header();
 
             <div class="col-12 col-md-9 mt-3">
                <div class="row border-ext-plastico px-3 py-3">
-                  <div class="col-4 align-self-center">
+                  <div class="col-12 col-md-4 align-self-center text-center">
                      <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
                   </div>
-                  <div class="col-8 align-self-center">
+                  <div class="col-12 col-md-8 align-self-center">
                      <h3 class="text-third fw-bold">Bolsas en plástico burbuja pequeña</h3>
 
                      <p class="text-white fs-5 mb-0">

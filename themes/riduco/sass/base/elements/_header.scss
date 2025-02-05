@@ -11,7 +11,8 @@ header.site-header {
       li {
          color: #fff !important;
 
-         a {
+         a,
+         a:visited {
             color: #fff !important;
          }
       }
@@ -34,5 +35,43 @@ header.site-header {
       background-color: $color__secondary;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
       transition: background-color 0.3s ease;
+   }
+
+   @media screen and (max-width: 992px) {
+      font-size: 20px;
+
+      .offcanvas {
+         width: 100%;
+
+         .offcanvas-body {
+            background-color: #d9d9d9;
+
+            ul.navbar-nav {
+               text-align: center;
+               margin-left: 0;
+
+               li {
+                  color: $color__primary !important;
+
+                  a,
+                  a:visited {
+                     color: $color__primary !important;
+                  }
+               }
+            }
+         }
+      }
+
+      .dropdown-menu {
+         background: none;
+         border: unset;
+         text-align: center;
+      }
+   }
+
+   @media screen and (max-width: 767px) {
+      .custom-logo {
+         width: 200px;
+      }
    }
 }

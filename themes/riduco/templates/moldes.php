@@ -24,7 +24,7 @@ get_header();
    <div class="bg-secondary">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mb-3 mb-md-0 align-self-md-center aling-self-lg-start">
                <section class="splide splide-manufacturing" aria-label="Carrusel de Fabricación, mantenimiento y diseño">
                   <div class="splide__track">
                      <ul class="splide__list">
@@ -41,7 +41,7 @@ get_header();
                   </div>
                </section>
             </div>
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center py-md-4 py-lg-0">
                <h2 class="fw-bold text-third">Fabricación, mantenimiento y diseño</h2>
 
                <p class="text-white">
@@ -56,10 +56,10 @@ get_header();
       </div>
    </div>
 
-   <div class="bg-primary mt-4">
+   <div class="bg-primary mt-0 mt-md-4">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center order-2 order-md-1">
                <h2 class="fw-bold text-third">Pilotaje</h2>
 
                <p class="text-white">
@@ -71,7 +71,7 @@ get_header();
                </p>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 order-1 order-md-2 mb-3 mb-md-0">
                <section class="splide splide-piloting" aria-label="Carrusel de pilotaje">
                   <div class="splide__track">
                      <ul class="splide__list">
@@ -92,10 +92,10 @@ get_header();
       </div>
    </div>
 
-   <div class="bg-fourth mt-4">
+   <div class="bg-fourth mt-0 mt-md-4">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mb-3 mb-md-0 align-self-md-center aling-self-lg-start">
                <section class="splide splide-perifericos" aria-label="Carrusel de perifericos">
                   <div class="splide__track">
                      <ul class="splide__list">
@@ -113,7 +113,7 @@ get_header();
                </section>
             </div>
 
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center py-md-4">
                <h2 class="fw-bold text-primary">Texturizado</h2>
 
                <p class="text-primary">

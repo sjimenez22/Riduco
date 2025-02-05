@@ -15,6 +15,10 @@ main.home {
             font-size: 12px;
          }
       }
+
+      @media screen and (max-width: 767px) {
+         margin-top: -2rem;
+      }
    }
 
    .mision {
@@ -26,6 +30,15 @@ main.home {
          position: absolute;
          transform: translate(-50%, 0);
          width: 550px;
+      }
+
+      @media screen and (max-width: 992px) {
+         margin-top: 2rem;
+
+         .img-mision {
+            position: relative;
+            width: 300px;
+         }
       }
    }
 
@@ -65,19 +78,27 @@ main.home {
             }
          }
       }
+
+      @media screen and (max-width: 767px) {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         height: auto;
+      }
    }
 
    .ctn-cerficates {
-      align-items: center;
-      display: flex;
-      justify-content: space-between;
-
       .certificates {
          text-align: center;
 
          img {
             object-fit: contain;
             aspect-ratio: 16/9;
+         }
+      }
+
+      @media screen and (max-width: 767px) {
+         img {
+            width: 300px;
          }
       }
    }

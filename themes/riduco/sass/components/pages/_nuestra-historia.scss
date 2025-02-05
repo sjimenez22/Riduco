@@ -74,4 +74,63 @@ main.nuestra-historia {
          }
       }
    }
+
+   @media screen and (max-width: 767px) {
+      .history {
+         .box-history {
+            .year-circle {
+               width: 100px;
+               height: 200px;
+
+               &.left {
+                  border-top-left-radius: 200px;
+                  border-bottom-left-radius: 200px;
+
+                  &.active {
+                     border-top-left-radius: 50px;
+                     border-bottom-left-radius: 50px;
+                  }
+               }
+
+               &.right {
+                  border-top-right-radius: 200px;
+                  border-bottom-right-radius: 200px;
+
+                  &.active {
+                     border-top-right-radius: 50px;
+                     border-bottom-right-radius: 50px;
+                  }
+               }
+
+               &.active {
+                  width: 20px;
+               }
+            }
+
+            .information {
+               font-size: 12px;
+
+               &.right {
+                  padding-left: 2rem !important;
+                  padding-right: 0.5rem !important;
+               }
+
+               &.left {
+                  padding-left: 0.5rem !important;
+                  padding-right: 2rem !important;
+               }
+
+               .display-2 {
+                  font-size: 2rem !important;
+                  margin-bottom: 0;
+               }
+
+               img {
+                  border-radius: 20px;
+                  width: 150px;
+               }
+            }
+         }
+      }
+   }
 }
