@@ -24,20 +24,20 @@ get_header();
    <div class="bg-secondary mt-lg-4 position-relative">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-5 py-3 py-md-5 mision text-center text-md-start order-2 order-md-1">
+            <div class="col-12 col-lg-5 py-3 py-lg-5 mision text-center text-lg-start order-2 order-lg-1">
                <h2 class="text-third fw-bold">Misión</h2>
                <p class="text-white">
                   Riduco S.A es una empresa manufacturera con conocimiento técnico, experiencia y tecnología de punta; dedicada a la fabricación y comercialización de productos plásticos inyectados y extruídos, que garantiza a sus clientes calidad, confidencialidad, entrega oportuna, apoyo técnico, un equipo humano competente, compromiso con el desarrollo sostenible y a sus accionistas el retorno de la inversión con crecimiento permanente, mejora continua, eficiencia y productividad.
                </p>
             </div>
 
-            <div class="col-12 col-md-2 img-mision-vision d-none d-md-block order-md-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/01/mision-vision.png);">
+            <div class="col-12 col-lg-2 img-mision-vision d-none d-lg-block order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/01/mision-vision.png);">
             </div>
 
-            <div class="col-12 col-md-2 img-mision-vision d-block d-md-none order-1 order-md-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/01/mision-vision-mobile.png); height: 180px;">
+            <div class="col-12 col-lg-2 img-mision-vision d-block d-lg-none order-1 order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/01/mision-vision-mobile.png); height: 180px;">
             </div>
 
-            <div class="col-12 col-md-5 py-3 py-md-5 text-center text-md-start order-3">
+            <div class="col-12 col-lg-5 py-3 py-lg-5 text-center text-lg-start order-3">
                <h2 class="text-third fw-bold">Visión</h2>
                <p class="text-white">
                   Para el 2030, RIDUCO se mantendrá como una empresa de clase mundial, comprometida con el desarrollo sostenible, incrementando la rentabilidad y la participación en el mercado, como aliado estratégico de sus clientes, a través de la excelencia operacional y un equipo humano competente.
@@ -68,7 +68,7 @@ get_header();
 
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6 align-self-center text-center text-lg-start">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/sostenibilidad-empresarial.png" alt="Sostenibilidad Empresarial" class="img-fluid">
             </div>
 
@@ -84,12 +84,12 @@ get_header();
 
    <div class="bg-secondary">
       <div class="container py-4">
-         <div class="row py-3 py-md-5">
-            <div class="col-12 col-md-6">
+         <div class="row py-3 py-lg-5">
+            <div class="col-12 col-lg-6 text-center text-lg-start">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/gestion-social.png" alt="Gestión Social" class="img-fluid">
             </div>
-            <div class="col-12 col-md-6">
-               <h2 class="text-third fs-3 fw-bold text-center text-md-start mt-4 mt-md-auto">Gestión social</h2>
+            <div class="col-12 col-lg-6">
+               <h2 class="text-third fs-3 fw-bold text-center text-lg-start mt-4 mt-lg-auto">Gestión social</h2>
                <p class="text-white">
                   Nuestros principales objetivos en gestión humana, desarrollando el talento y mejorando la calidad de vida de nuestra gente, son potenciar a nuestra gente y ser un excelente lugar para trabajar. Esto lo logramos con programas como:
                </p>
@@ -108,11 +108,11 @@ get_header();
       </div>
    </div>
 
-   <div class="bg-primary">
+   <div class="bg-ambiental">
       <div class="container py-4">
-         <div class="row mt-3 mt-md-5">
-            <div class="col-12 col-md-6">
-               <h2 class="text-third fs-3 fw-bold text-center text-md-start mt-4 mt-md-auto">Ambiental</h2>
+         <div class="row py-3 py-lg-5">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+               <h2 class="text-third fs-3 fw-bold text-center text-lg-start mt-4 mt-lg-auto">Ambiental</h2>
                <p class="text-white">
                   Somos una empresa responsable ambientalmente que hace uso eficiente de los recursos naturales y crea impactos positivos para la sociedad.
                </p>
@@ -132,30 +132,30 @@ get_header();
                </ul>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2 text-center text-lg-start">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/gestion-ambiental.png" alt="Gestión Ambiental" class="img-fluid">
             </div>
          </div>
       </div>
    </div>
 
-   <div class="bg-gradient-third-primary mt-4 ctn-empresarial">
+   <div class="mt-0 mt-md-4 ctn-empresarial">
       <div class="container">
-         <div class="row py-4">
-            <div class="col-12 col-md-6 align-self-center">
-               <p class="text-primary fw-bold display-5">
+         <div class="row py-0 py-md-4">
+            <div class="col-12 col-md-6 align-self-center bg-title py-4 py-md-0">
+               <p class="text-primary fw-bold display-5 text-center pe-0 pe-md-3">
                   Principios de buen gobierno corporativo y ética empresarial
                </p>
             </div>
 
-            <div class="col-12 col-md-6 align-self-center d-flex justify-content-center">
-               <div class="w-75">
-                  <p class="text-white">
+            <div class="col-12 col-md-6 align-self-center d-flex justify-content-center py-4 py-md-0 bg-description">
+               <div class="ctn-description">
+                  <p class="text-white text-center text-md-start">
                      Nuestro código de ética y buen gobierno corporativo permite relaciones de administración transparentes e íntegras con nuestros grupos de interés, bajo los principios del marco mundial de derechos humanos.
                   </p>
 
-                  <div class="d-flex justify-content-between align-items-center">
-                     <a href="<?php echo site_url(); ?>/wp-content/uploads/2025/01/Manual-de-Gobierno-Corporativo.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-third text-decoration-none text-small">Manual de Gobierno Corporativo</a>
+                  <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                     <a href="<?php echo site_url(); ?>/wp-content/uploads/2025/01/Manual-de-Gobierno-Corporativo.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-third text-decoration-none text-small mb-3 mb-lg-0">Manual de Gobierno Corporativo</a>
 
                      <a href="<?php echo site_url(); ?>/wp-content/uploads/2025/01/Manual-Sagrilaft.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-third text-decoration-none text-small">Manual Sagrilaft</a>
                   </div>
@@ -173,7 +173,7 @@ get_header();
             <h2 class="fw-bold display-5 text-center text-primary">Responsabiliza RSE</h2>
          </div>
 
-         <div class="col-12 d-flex justify-content-between mt-3">
+         <div class="col-12 d-block d-md-flex justify-content-between mt-3">
             <div class="box-rse border-primary-3 text-primary me-3 py-3">
                <div class="text-center">
                   <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/icono-no-al-trabajo-infantil.png" alt="No al trabajo infantil" class="img-fluid mb-3" width="70">
@@ -263,7 +263,7 @@ get_header();
             <div class="col-12">
                <div class="container">
                   <div class="row">
-                     <div class="col-12 col-md-6 py-md-5">
+                     <div class="col-12 col-md-6 py-4 py-md-5 text-center text-md-start">
                         <h2 class="fw-bold text-third">Gestión con la comunidad</h2>
                         <p class="text-white pe-4">
                            Como organización responsable velamos por el desarrollo de la comunidad y la sociedad, encaminando nuestros esfuerzos para brindar mecanismos al mejoramiento en calidad de vida, educación y reducción de los índices de pobreza.
@@ -281,7 +281,7 @@ get_header();
    <div class="bg-gradient-secondary-fourth ctn-comunidad">
       <div class="container">
          <div class="row">
-            <div class="col-12 col-md-4 text-center bg-secondary py-3 py-md-4 text-white position-relative">
+            <div class="col-12 col-md-4 text-center bg-secondary py-4 text-white position-relative">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/icono-programa-caja-de-ilusiones.png" alt="PROGRAMA CAJA DE ILUSIONES" class="img-fluid mb-3">
 
                <h2 class="fw-bold fs-3 mb-3">PROGRAMA CAJA DE ILUSIONES</h2>
@@ -291,7 +291,7 @@ get_header();
 
                <div class="triangle"></div>
             </div>
-            <div class="col-12 col-md-4 text-center bg-third py-3 py-md-4 text-primary position-relative">
+            <div class="col-12 col-md-4 text-center bg-third py-4 text-primary position-relative">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/icono-voluntariado.png" alt="VOLUNTARIADO CORPORATIVO" class="img-fluid mb-3">
 
                <h2 class="fw-bold fs-3 mb-3">VOLUNTARIADO CORPORATIVO</h2>
@@ -301,7 +301,7 @@ get_header();
 
                <div class="triangle third"></div>
             </div>
-            <div class="col-12 col-md-4 text-center bg-fourth py-3 py-md-4 text-white position-relative">
+            <div class="col-12 col-md-4 text-center bg-fourth py-4 text-white position-relative">
                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/icono-donaciones.png" alt="DONACIONES" class="img-fluid mb-3">
 
                <h2 class="fw-bold fs-3 mb-3">DONACIONES</h2>

@@ -53,7 +53,7 @@
 					<li>
 						<a href="https://www.facebook.com/pages/Riduco/208838349139595" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center justify-content-lg-start">
 							<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-facebook.png" alt="Facebook" class="img-fluid">
-							<span class="ms-2">Riduco</span>
+							<p class="ms-2 mb-0 notranslate">Riduco</p>
 						</a>
 					</li>
 				</ul>

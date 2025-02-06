@@ -23,25 +23,25 @@ get_header();
 
    <div class="container mt-4 mt-md-5">
       <div class="row justify-content-center">
-         <div class="col-12 col-md-7">
+         <div class="col-12 col-lg-7">
             <p class="text-primary text-center">
                RIDUCO trabaja de manera constante para alcanzar la excelencia, utilizando herramientas de mejora continua a lo largo de la cadena de valor. Esto permite una mayor producción, encontrar la causa raíz de los problemas y tener ambientes de trabajo más agradables. Además, nos posibilita satisfacer las necesidades de las partes interesadas, disminuir los desperdicios, optimizar el trabajo y aprender de las experiencias.
             </p>
          </div>
 
-         <div class="col-12 text-center">
+         <div class="col-12 text-center my-3 my-lg-0">
             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/sistema-de-gestion-mejora-continua.png" alt="Planear, mejora continua y hacer" class="img-fluid">
          </div>
 
-         <div class="col-12 col-md-7">
+         <div class="col-12 col-lg-7">
             <p class="text-primary text-center">
                Para lograr el crecimiento sostenido de la empresa, RIDUCO se soporta en herramientas como gestión estratégica, trabajo estandarizado, solución de problemas y respuesta rápida. También se trabaja con instrumetos como 5S, lecciones aprendidas, entrenamiento estándar, auditorías escalonadas, control de producto no conforme y herramientas estadísticas básicas. Todo esto sin dejar de lado SMED, TPM, ANDON, HCCP Jerarquización de características de producto/proceso, estaciones de verificación, control de la contaminación y dispositivos a prueba de error. Adicionalmente, también se trabaja la gestión de la cadena de suministro, valor agregado y 7 desperdicios y Kaizen.
             </p>
          </div>
       </div>
 
-      <div class="row mt-4 mt-md-5">
-         <div class="col-12 d-flex justify-content-between mt-3">
+      <div class="row mt-4 mt-lg-5">
+         <div class="col-12 d-block d-lg-flex justify-content-between mt-3">
             <div class="box-rse border-primary-3 text-primary me-3 py-3">
                <div class="text-center">
                   <div class="d-flex justify-content-center align-items-center">
@@ -125,7 +125,7 @@ get_header();
       </div>
    </div>
 
-   <div class="bg-secondary mt-4 mt-md-5 py-3">
+   <div class="bg-secondary mt-0 mt-md-5 py-3">
       <div class="container">
          <div class="row">
             <div class="col-12">
@@ -137,15 +137,15 @@ get_header();
       </div>
    </div>
 
-   <div class="container mt-4 mt-md-5">
-      <div class="row">
+   <div class="container mt-5">
+      <div class="row mb-5">
          <div class="col-12">
             <h2 class="fs-1 text-center fw-bold text-primary">Certificaciones</h2>
          </div>
       </div>
 
       <div class="row">
-         <div class="col-12 col-md-6 bg-primary d-flex flex-column justify-content-center">
+         <div class="col-12 col-md-6 bg-primary d-flex flex-column justify-content-center py-4 py-lg-0 text-center text-md-start">
             <h3 class="fw-bold text-third">ISO 9001</h3>
             <p class="text-white">
                Diseño, Fabricación y Comercialización de productos plásticos (inyectados, extruídos, manufacturados). Prestación del servicio de inyección, termoformado, extrusión y manufactura. Diseño, fabricación y comercialización de moldes para la industria del plástico.
@@ -158,11 +158,11 @@ get_header();
       </div>
 
       <div class="row">
-         <div class="col-12 col-md-6 text-center">
+         <div class="col-12 col-md-6 text-center order-2 order-md-1">
             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-iatf-16949.png" alt="Certificado IATF 16949" class="img-fluid">
          </div>
 
-         <div class="col-12 col-md-6 bg-secondary d-flex flex-column justify-content-center">
+         <div class="col-12 col-md-6 bg-secondary d-flex flex-column justify-content-center py-4 py-lg-0 order-1 order-md-2 text-center text-md-start">
             <h3 class="fw-bold text-third">IATF 16949</h3>
             <p class="text-white">
                Fabricación de piezas plásticas internas y externas.
@@ -171,7 +171,7 @@ get_header();
       </div>
 
       <div class="row">
-         <div class="col-12 col-md-6 bg-third d-flex flex-column justify-content-center">
+         <div class="col-12 col-md-6 bg-third d-flex flex-column justify-content-center py-4 py-lg-0 text-center text-md-start">
             <h3 class="fw-bold text-primary">CALIFICACIÓN OEA</h3>
             <p class="text-primary">
                CALIFICACIÓN DE OPERADOR ECONÓMICO AUTORIZADO para importar y exportar en la categoría de seguridad y facilitación.

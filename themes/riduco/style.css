@@ -811,6 +811,14 @@ ul li::marker {
 	font-size: 1.3rem;
 }
 
+.splide__arrow {
+	background: #000 !important;
+}
+
+.splide__arrow svg {
+	fill: #fff !important;
+}
+
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
@@ -1056,8 +1064,17 @@ ul li::marker {
 	z-index: -1;
 }
 
+.direccionamiento-estrategico .bg-ambiental {
+	background-color: #014f2a;
+}
+
 .direccionamiento-estrategico .ctn-empresarial {
+	background: linear-gradient(90deg, #aacf0d 50%, #014f2a 50%);
 	position: relative;
+}
+
+.direccionamiento-estrategico .ctn-empresarial .ctn-description {
+	width: 75%;
 }
 
 .direccionamiento-estrategico .ctn-empresarial .triangle {
@@ -1136,6 +1153,88 @@ ul li::marker {
 	border-left: 20px solid #aacf0d;
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.direccionamiento-estrategico .bg-gestion-comunidad {
+		right: 0;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.direccionamiento-estrategico .bg-ambiental {
+		background-color: #029452;
+	}
+	.direccionamiento-estrategico .ctn-empresarial {
+		background: unset;
+		position: relative;
+	}
+	.direccionamiento-estrategico .ctn-empresarial .bg-title {
+		background-color: #aacf0d;
+	}
+	.direccionamiento-estrategico .ctn-empresarial .bg-description {
+		background-color: #014f2a;
+	}
+	.direccionamiento-estrategico .ctn-empresarial .bg-description .ctn-description {
+		width: 95%;
+	}
+	.direccionamiento-estrategico .ctn-empresarial .triangle {
+		border-bottom: 30px solid #014f2a;
+		border-left: 40px solid transparent;
+		border-right: 40px solid transparent;
+		border-top: 0;
+		left: 50%;
+		top: 35.5%;
+		transform: translate(-50%, 0);
+	}
+	.direccionamiento-estrategico .box-rse {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	.direccionamiento-estrategico .box-rse .text-description {
+		padding-inline: 1rem;
+		text-align: center;
+	}
+	.direccionamiento-estrategico .box-rse .triangle {
+		border-bottom: 0;
+		border-top: 20px solid #014f2a;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		left: 47%;
+		top: 100%;
+		transform: translate(0, 0);
+	}
+	.direccionamiento-estrategico .box-rse .triangle.secondary {
+		border-left: 20px solid transparent;
+		border-top: 20px solid #029452;
+	}
+	.direccionamiento-estrategico .box-rse .triangle.third {
+		border-left: 20px solid transparent;
+		border-top: 20px solid #aacf0d;
+	}
+	.direccionamiento-estrategico .box-rse .triangle.fourth {
+		border-left: 20px solid transparent;
+		border-top: 20px solid #6fb539;
+	}
+	.direccionamiento-estrategico .bg-gestion-comunidad {
+		height: 300px;
+		width: 100%;
+		position: relative;
+	}
+	.direccionamiento-estrategico .ctn-comunidad .triangle {
+		border-bottom: 0;
+		border-top: 20px solid #029452;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		right: 44%;
+		top: 99%;
+		transform: translate(0, 0);
+	}
+	.direccionamiento-estrategico .ctn-comunidad .triangle.third {
+		border-left: 20px solid transparent;
+		border-top: 20px solid #aacf0d;
+	}
+}
+
 main.sistema-de-gestion .box-rse {
 	border-radius: 30px;
 	display: flex;
@@ -1198,6 +1297,46 @@ main.sistema-de-gestion .box-rse .triangle.third {
 
 main.sistema-de-gestion .box-rse .triangle.fourth {
 	border-left: 20px solid #6fb539;
+}
+
+@media screen and (max-width: 992px) {
+	main.sistema-de-gestion .box-rse {
+		margin-bottom: 6rem;
+		margin-top: 3rem;
+		width: 100%;
+	}
+	main.sistema-de-gestion .box-rse .text-description {
+		font-size: 14px;
+		padding-inline: 1rem;
+		text-align: center;
+	}
+	main.sistema-de-gestion .box-rse .triangle {
+		border-bottom: 0;
+		border-top: 20px solid #014f2a;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		left: 47%;
+		top: 100%;
+		transform: translate(0, 0);
+	}
+	main.sistema-de-gestion .box-rse .triangle.secondary {
+		border-left: 20px solid transparent;
+		border-top: 20px solid #029452;
+	}
+	main.sistema-de-gestion .box-rse .triangle.third {
+		border-left: 20px solid transparent;
+		border-top: 20px solid #aacf0d;
+	}
+	main.sistema-de-gestion .box-rse .triangle.fourth {
+		border-left: 20px solid transparent;
+		border-top: 20px solid #6fb539;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	main.sistema-de-gestion .box-rse .triangle {
+		left: 44%;
+	}
 }
 
 main.trabaje-con-nosotros .box-information {

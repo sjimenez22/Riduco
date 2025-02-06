@@ -62,4 +62,51 @@ main.sistema-de-gestion {
          }
       }
    }
+
+   @media screen and (max-width: 992px) {
+      .box-rse {
+         margin-bottom: 6rem;
+         margin-top: 3rem;
+         width: 100%;
+
+         .text-description {
+            font-size: 14px;
+            padding-inline: 1rem;
+            text-align: center;
+         }
+
+         .triangle {
+            border-bottom: 0;
+            border-top: 20px solid $color__primary;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            left: 47%;
+            top: 100%;
+            transform: translate(0, 0);
+
+            &.secondary {
+               border-left: 20px solid transparent;
+               border-top: 20px solid $color__secondary;
+            }
+
+            &.third {
+               border-left: 20px solid transparent;
+               border-top: 20px solid $color__third;
+            }
+
+            &.fourth {
+               border-left: 20px solid transparent;
+               border-top: 20px solid $color__fourth;
+            }
+         }
+      }
+   }
+
+   @media screen and (max-width: 767px) {
+      .box-rse {
+         .triangle {
+            left: 44%;
+         }
+      }
+   }
 }

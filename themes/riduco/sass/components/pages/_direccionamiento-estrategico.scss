@@ -16,8 +16,17 @@
       z-index: -1;
    }
 
+   .bg-ambiental {
+      background-color: $color__primary;
+   }
+
    .ctn-empresarial {
+      background: $color__background-third-primary;
       position: relative;
+
+      .ctn-description {
+         width: 75%;
+      }
 
       .triangle {
          border-bottom: 50px solid transparent;
@@ -94,6 +103,104 @@
 
          &.third {
             border-left: 20px solid $color__third;
+         }
+      }
+   }
+
+   @media screen and (min-width: 768px) and (max-width: 992px) {
+      .bg-gestion-comunidad {
+         right: 0;
+         width: 50%;
+      }
+   }
+
+   @media screen and (max-width: 767px) {
+      .bg-ambiental {
+         background-color: $color__secondary;
+      }
+
+      .ctn-empresarial {
+         background: unset;
+         position: relative;
+
+         .bg-title {
+            background-color: $color__third;
+         }
+
+         .bg-description {
+            background-color: $color__primary;
+
+            .ctn-description {
+               width: 95%;
+            }
+         }
+
+         .triangle {
+            border-bottom: 30px solid $color__primary;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 0;
+            left: 50%;
+            top: 35.5%;
+            transform: translate(-50%, 0);
+         }
+      }
+
+      .box-rse {
+         width: 100%;
+         margin-bottom: 2rem;
+
+         .text-description {
+            padding-inline: 1rem;
+            text-align: center;
+         }
+
+         .triangle {
+            border-bottom: 0;
+            border-top: 20px solid $color__primary;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            left: 47%;
+            top: 100%;
+            transform: translate(0, 0);
+
+            &.secondary {
+               border-left: 20px solid transparent;
+               border-top: 20px solid $color__secondary;
+            }
+
+            &.third {
+               border-left: 20px solid transparent;
+               border-top: 20px solid $color__third;
+            }
+
+            &.fourth {
+               border-left: 20px solid transparent;
+               border-top: 20px solid $color__fourth;
+            }
+         }
+      }
+
+      .bg-gestion-comunidad {
+         height: 300px;
+         width: 100%;
+         position: relative;
+      }
+
+      .ctn-comunidad {
+         .triangle {
+            border-bottom: 0;
+            border-top: 20px solid $color__secondary;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            right: 44%;
+            top: 99%;
+            transform: translate(0, 0);
+
+            &.third {
+               border-left: 20px solid transparent;
+               border-top: 20px solid $color__third;
+            }
          }
       }
    }
