@@ -35,43 +35,42 @@ $products = new WP_Query($argsProducts);
    <div class="product-list row mt-4">
       <?php
       while ($products->have_posts()) : $products->the_post();
+         $information_table = get_field('information_table');
       ?>
-         <div class="col-12 mb-3">
-            <div class="row">
-               <div class="col-4 align-self-center">
-                  <img src="https://placehold.co/500" alt="Producto" class="img-fluid" width="250">
+         <div class="col-12 mb-3 px-4 px-md-0">
+            <div class="row box-products">
+               <div class="col-12 col-md-3 align-self-center text-center mb-3 mb-md-0">
+                  <img src="https://placehold.co/500" alt="Producto" class="img-fluid" width="200">
                </div>
 
-               <div class="col-8 align-self-center">
+               <div class="col-12 col-md-9 align-self-center">
                   <h3 class="fw-bold text-third"><?php echo the_title(); ?></h3>
+
+                  <?php if ($information_table):
+                     if ($information_table['information']):
+                  ?>
+                        <div class="row">
+                           <?php foreach ($information_table['information'] as $information) :
+
+                              $attribute = $information['attribute'];
+                              $description = $information['description'];
+                           ?>
+                              <div class="col-12 col-md-6 mb-2 text-primary">
+                                 <span class="fw-bold"><?php echo esc_html($attribute); ?>: </span>
+                                 <span><?php echo esc_html($description); ?></span>
+                              </div>
+                           <?php endforeach; ?>
+                        </div>
+                  <?php
+                     endif;
+                  endif; ?>
                </div>
             </div>
          </div>
       <?php endwhile; ?>
    </div>
 
-   <nav>
-      <ul class="pagination justify-content-center">
-         <?php
-         $big = 999999999; // Número grande para reemplazar en paginate_links()
-         $pages = paginate_links([
-            'base'      => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
-            'format'    => '?paged=%#%',
-            'current'   => max(1, get_query_var('paged')),
-            'total'     => $products->max_num_pages,
-            'prev_text' => '&laquo;',
-            'next_text' => '&raquo;',
-            'type'      => 'array'
-         ]);
-
-         if ($pages) :
-            foreach ($pages as $page) {
-               echo '<li class="page-item">' . str_replace('page-numbers', 'page-link', $page) . '</li>';
-            }
-         endif;
-         ?>
-      </ul>
-   </nav>
+   <?php custom_pagination($products->max_num_pages); ?>
 <?php
    wp_reset_postdata();
 endif;

@@ -18,6 +18,8 @@ if ($_POST && $_POST['product_category']) {
 ?>
 
 <?php if ($cats):  ?>
+   <button class="btn btn-sub-category mx-3 active" data-slug="<?php echo esc_html($parent->slug); ?>">Todos</button>
+
    <?php foreach ($cats as $category) : ?>
       <button class="btn btn-sub-category mx-3" data-slug="<?php echo esc_html($category->slug); ?>"><?php echo esc_html($category->name); ?></button>
    <?php endforeach; ?>

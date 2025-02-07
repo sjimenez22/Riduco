@@ -37,7 +37,7 @@ get_header();
             </h2>
          </div>
 
-         <div class="col-12 d-flex justify-content-between mt-4 mt-md-5">
+         <div class="col-12 text-center mt-4 mt-md-5 box-btns">
             <button class="btn btn-product active" data-slug="all">Todos</button>
 
             <?php foreach ($cats as $category) : ?>
@@ -46,7 +46,7 @@ get_header();
 
          </div>
 
-         <div class="col-12 d-flex justify-content-center mt-4 sub-categories d-none">
+         <div class="col-12 text-center mt-4 sub-categories d-none box-btns">
             <?php get_template_part('components/product/product', 'sub-category'); ?>
          </div>
       </div>

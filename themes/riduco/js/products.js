@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', e => {
 const changeFilterProducts = () => {
    const btnProducts = document.querySelectorAll('.btn-product');
    const productList = document.querySelector('.product-list');
-   const pagination = document.querySelector('.pagination');
+   const pagination = document.querySelector('.pagination-riduco');
    const subCategories = document.querySelector('.sub-categories');
    const spinnerProducts = document.querySelector('.spinner-products');
 
@@ -59,7 +59,7 @@ const changeFilterProducts = () => {
 const changeFilterProductsBySubCategory = () => {
    const btnProducts = document.querySelectorAll('.btn-sub-category');
    const productList = document.querySelector('.product-list');
-   const pagination = document.querySelector('.pagination');
+   const pagination = document.querySelector('.pagination-riduco');
    const spinnerProducts = document.querySelector('.spinner-products');
 
    for (const btnProduct of btnProducts) {

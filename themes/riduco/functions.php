@@ -249,9 +249,42 @@ add_filter('upload_mimes', 'cc_mime_types');
 function reescribir_urls_productos()
 {
 	add_rewrite_rule(
-		'^productos/page/([0-9]+)/?$',
+		'^productos/pagina/([0-9]+)/?$',
 		'index.php?pagename=productos&paged=$matches[1]',
 		'top'
 	);
 }
 add_action('init', 'reescribir_urls_productos');
+
+function custom_pagination($max_num_pages)
+{
+	if ($max_num_pages <= 1) return;
+
+	$current_page = max(1, get_query_var('paged'));
+	echo '<div class="pagination-riduco">';
+
+	// first page
+	if ($current_page > 1) {
+		echo '<a href="' . get_pagenum_link(1) . '">«</a>';
+	}
+
+	// last page
+	if ($current_page > 1) {
+		echo '<a href="' . get_pagenum_link($current_page - 1) . '">‹</a>';
+	}
+
+	// actual page
+	echo '<span class="current-page">' . $current_page . '</span>';
+
+	// next page
+	if ($current_page < $max_num_pages) {
+		echo '<a href="' . get_pagenum_link($current_page + 1) . '">›</a>';
+	}
+
+	// last page
+	if ($current_page < $max_num_pages) {
+		echo '<a href="' . get_pagenum_link($max_num_pages) . '">»</a>';
+	}
+
+	echo '</div>';
+}

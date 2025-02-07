@@ -97,3 +97,33 @@ ul {
       fill: #fff !important;
    }
 }
+
+.pagination-riduco {
+   align-items: center;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+
+   a,
+   .current-page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #666;
+   }
+
+   a:hover {
+      background-color: #eee;
+   }
+
+   .current-page {
+      font-weight: bold;
+      background-color: #f5f5f5;
+   }
+}
