@@ -26,6 +26,16 @@ main.products {
       border: 1px solid #bdbdbd;
       border-radius: 25px;
       padding: 10px;
+
+      table {
+         width: 100%;
+         table-layout: auto;
+
+         th,
+         td {
+            white-space: pre-line;
+         }
+      }
    }
 
    @media screen and (max-width: 767px) {

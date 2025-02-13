@@ -1583,6 +1583,16 @@ main.products .box-products {
 	padding: 10px;
 }
 
+main.products .box-products table {
+	width: 100%;
+	table-layout: auto;
+}
+
+main.products .box-products table th,
+main.products .box-products table td {
+	white-space: pre-line;
+}
+
 @media screen and (max-width: 767px) {
 	main.products .box-btns {
 		display: flex;

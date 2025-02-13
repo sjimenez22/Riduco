@@ -39,27 +39,54 @@ $products = new WP_Query($argsProducts);
       ?>
          <div class="col-12 mb-3 px-4 px-md-0">
             <div class="row box-products">
-               <div class="col-12 col-md-3 align-self-center text-center mb-3 mb-md-0">
+               <div class="col-12 col-md-2 align-self-center text-center mb-3 mb-md-0">
                   <img src="https://placehold.co/500" alt="Producto" class="img-fluid" width="200">
                </div>
 
-               <div class="col-12 col-md-9 align-self-center">
-                  <h3 class="fw-bold text-third"><?php echo the_title(); ?></h3>
+               <div class="col-12 col-md-2 align-self-center text-center mb-3 mb-md-0">
+                  <h3 class="fw-bold text-third fs-4"><?php echo the_title(); ?></h3>
+               </div>
 
+               <div class="col-12 col-md-8 align-self-center">
                   <?php if ($information_table):
-                     if ($information_table['information']):
+                     if ($information_table['titles']) :
                   ?>
-                        <div class="row">
-                           <?php foreach ($information_table['information'] as $information) :
+                        <div class="table-responsive">
+                           <table class="table table-sm table-borderless">
+                              <thead>
+                                 <tr>
+                                    <?php foreach ($information_table['titles'] as $titles) :
+                                       $title = $titles['title'];
+                                    ?>
+                                       <th scope="col" class="fw-bold text-primary text-center"><?php echo esc_html($title); ?></th>
+                                    <?php endforeach; ?>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <?php foreach ($information_table['information'] as $information) :
+                                    $descriptions = $information['descriptions'];
 
-                              $attribute = $information['attribute'];
-                              $description = $information['description'];
-                           ?>
-                              <div class="col-12 col-md-6 mb-2 text-primary">
-                                 <span class="fw-bold"><?php echo esc_html($attribute); ?>: </span>
-                                 <span><?php echo esc_html($description); ?></span>
-                              </div>
-                           <?php endforeach; ?>
+                                    if ($descriptions && count($descriptions) > 1) :
+                                 ?>
+                                       <tr>
+                                          <?php foreach ($descriptions as $key => $description): ?>
+                                             <td class="text-small text-center" style="width: 30%;">
+                                                <?php echo esc_html($description['description']); ?>
+                                             </td>
+                                          <?php endforeach; ?>
+                                       </tr>
+
+                                    <?php else : ?>
+                                       <?php foreach ($descriptions as $key => $description): ?>
+                                          <td class="text-small text-center" style="width: 30%;">
+                                             <?php echo esc_html($description['description']); ?>
+                                          </td>
+                                       <?php endforeach; ?>
+                                 <?php
+                                    endif;
+                                 endforeach; ?>
+                              </tbody>
+                           </table>
                         </div>
                   <?php
                      endif;
