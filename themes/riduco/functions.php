@@ -26,7 +26,7 @@ unset($file, $filepath);
 
 if (! defined('_S_VERSION')) {
 	// Replace the version number of the theme on each release.
-	define('_S_VERSION', '1.0.0');
+	define('_S_VERSION', '0.0.1');
 }
 
 /**
@@ -162,42 +162,46 @@ function riduco_scripts()
 	wp_enqueue_style('riduco-style', get_stylesheet_uri(), array(), _S_VERSION);
 	wp_style_add_data('riduco-style', 'rtl', 'replace');
 
-	wp_enqueue_style('splide-css', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css', array(), '4.1.4');
+	wp_enqueue_style('splide', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css', array(), '4.1.4');
 
 	wp_enqueue_script('riduco-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
 
-	wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array(), '5.3.3', true);
+	wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array(), '5.3.3', true);
 
-	wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true);
+	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), '0.0.1', true);
 
-	wp_enqueue_script('splide-js', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js', array(), '4.1.4', true);
+	wp_enqueue_script('splide', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js', array(), '4.1.4', true);
 
 	if (is_page_template('templates/nuestra-historia.php')) {
-		wp_enqueue_script('history-js', get_template_directory_uri() . '/js/history.js', array(), '1.0.0', true);
+		wp_enqueue_script('history', get_template_directory_uri() . '/js/history.js', array(), '0.0.1', true);
 	}
 
 	if (is_page_template('templates/inyeccion.php')) {
-		wp_enqueue_script('injection-js', get_template_directory_uri() . '/js/injection.js', array(), '1.0.0', true);
+		wp_enqueue_script('injection', get_template_directory_uri() . '/js/injection.js', array(), '0.0.1', true);
 	}
 
 	if (is_page_template('templates/moldes.php')) {
-		wp_enqueue_script('moldes-js', get_template_directory_uri() . '/js/moldes.js', array(), '1.0.0', true);
+		wp_enqueue_script('moldes', get_template_directory_uri() . '/js/moldes.js', array(), '0.0.1', true);
 	}
 
 	if (is_page_template('templates/extrusion-y-peletizado.php')) {
-		wp_enqueue_script('extrusion-js', get_template_directory_uri() . '/js/extrusion.js', array(), '1.0.0', true);
+		wp_enqueue_script('extrusion', get_template_directory_uri() . '/js/extrusion.js', array(), '0.0.1', true);
 	}
 
 	if (is_page_template('templates/productos.php')) {
-		wp_enqueue_script('products-js', get_template_directory_uri() . '/js/products.js', array(), '1.0.0', true);
+		wp_enqueue_script('products', get_template_directory_uri() . '/js/products.js', array(), '0.0.1', true);
 	}
 
 	if (is_page_template('templates/sectores.php')) {
-		wp_enqueue_script('sectors-js', get_template_directory_uri() . '/js/sectors.js', array(), '1.0.0', true);
+		wp_enqueue_script('sectors', get_template_directory_uri() . '/js/sectors.js', array(), '0.0.1', true);
+	}
+
+	if (is_page_template('templates/contacto.php')) {
+		wp_enqueue_script('contact', get_template_directory_uri() . '/js/contact.js', array(), '0.0.1', true);
 	}
 
 	wp_localize_script(
-		'main-js',
+		'main',
 		'ajax_bones',
 		[
 			'ajaxurl' => admin_url('admin-ajax.php'),
