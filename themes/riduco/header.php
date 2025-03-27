@@ -35,14 +35,18 @@
 							<div class="container-fluid">
 								<?php the_custom_logo(); ?>
 
-								<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu" aria-controls="primaryMenu" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="navbar-toggler-icon"></span>
+								<button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu" aria-controls="primaryMenu" aria-expanded="false" aria-label="Toggle navigation">
+									<img src="<?php echo get_template_directory_uri() . '/img/menu-open-mobile.png'; ?>"
+										alt="menu" width="30" class="img-fluid cursor-pointer" data-bs-dismiss="offcanvas">
 								</button>
 
 								<div class="offcanvas offcanvas-end" id="primaryMenu">
 									<div class="offcanvas-body">
-										<div class="d-block d-lg-none mb-4 pt-4">
+										<div class="d-flex aling-items-center justify-content-between d-lg-none mb-4 pt-4">
 											<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-verde-riduco-e1738529807917.png" alt="Riduco" class="img-fluid" width="150">
+
+											<img src="<?php echo get_template_directory_uri() . '/img/menu-close-mobile.png'; ?>"
+												alt="menu" width="30" class="img-fluid cursor-pointer" data-bs-dismiss="offcanvas">
 										</div>
 
 										<ul class="navbar-nav">
