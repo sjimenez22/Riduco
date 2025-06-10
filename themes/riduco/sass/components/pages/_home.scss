@@ -39,7 +39,7 @@ main.home {
          left: 50%;
          position: absolute;
          transform: translate(-50%, 0);
-         width: 550px;
+         width: 750px;
       }
 
       @media screen and (max-width: 992px) {
@@ -47,7 +47,7 @@ main.home {
 
          .img-mision {
             position: relative;
-            width: 300px;
+            width: 500px;
          }
       }
    }
@@ -99,10 +99,12 @@ main.home {
    .ctn-cerficates {
       .certificates {
          text-align: center;
+         margin-top: 1rem;
 
          img {
             object-fit: contain;
-            aspect-ratio: 16/9;
+            aspect-ratio: 1/1;
+            width: 159px;
          }
       }
 

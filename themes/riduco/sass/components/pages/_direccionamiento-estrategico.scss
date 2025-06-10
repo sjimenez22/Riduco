@@ -5,79 +5,18 @@
       background-size: cover;
    }
 
-   .bg-sostenibilidad-empresarial {
-      background-color: #f4f4f4;
-      height: 400px;
-      left: 0;
-      position: absolute;
-      top: 50%;
-      transform: translate(0, -50%);
-      width: 100%;
-      z-index: -1;
-   }
-
-   .bg-ambiental {
-      background-color: $color__primary;
-   }
-
-   .ctn-empresarial {
-      background: $color__background-third-primary;
-      position: relative;
-
-      .ctn-description {
-         width: 75%;
-      }
-
-      .triangle {
-         border-bottom: 50px solid transparent;
-         border-top: 50px solid transparent;
-         border-right: 40px solid $color__primary;
-         height: 0;
-         left: 48.5%;
-         position: absolute;
-         top: 50%;
-         transform: translate(0, -50%);
-         width: 0;
-      }
-   }
-
    .box-rse {
       border-radius: 30px;
       display: flex;
       height: auto;
       justify-content: center;
       position: relative;
-      width: 20%;
+      width: 33%;
 
       .text-description {
          font-size: 14px;
-         padding-left: 25px;
-         padding-right: 1px;
+         padding-inline: 15px;
          text-align: left;
-      }
-
-      .triangle {
-         border-bottom: 20px solid transparent;
-         border-top: 20px solid transparent;
-         border-left: 20px solid $color__primary;
-         height: 0;
-         left: 0;
-         position: absolute;
-         top: 50%;
-         transform: translate(0, -50%);
-         width: 0;
-
-         &.secondary {
-            border-left: 20px solid $color__secondary;
-         }
-
-         &.third {
-            border-left: 20px solid $color__third;
-         }
-
-         &.fourth {
-            border-left: 20px solid $color__fourth;
-         }
       }
    }
 
@@ -89,6 +28,10 @@
    }
 
    .ctn-comunidad {
+      .bg-additional {
+         background-color: $color__fifth;
+      }
+
       .triangle {
          border-bottom: 25px solid transparent;
          border-top: 25px solid transparent;
@@ -104,6 +47,10 @@
          &.third {
             border-left: 20px solid $color__third;
          }
+
+         &.fourth {
+            border-left: 20px solid $color__fourth;
+         }
       }
    }
 
@@ -115,37 +62,6 @@
    }
 
    @media screen and (max-width: 767px) {
-      .bg-ambiental {
-         background-color: $color__secondary;
-      }
-
-      .ctn-empresarial {
-         background: unset;
-         position: relative;
-
-         .bg-title {
-            background-color: $color__third;
-         }
-
-         .bg-description {
-            background-color: $color__primary;
-
-            .ctn-description {
-               width: 95%;
-            }
-         }
-
-         .triangle {
-            border-bottom: 30px solid $color__primary;
-            border-left: 40px solid transparent;
-            border-right: 40px solid transparent;
-            border-top: 0;
-            left: 50%;
-            top: 35.5%;
-            transform: translate(-50%, 0);
-         }
-      }
-
       .box-rse {
          width: 100%;
          margin-bottom: 2rem;
@@ -154,37 +70,13 @@
             padding-inline: 1rem;
             text-align: center;
          }
-
-         .triangle {
-            border-bottom: 0;
-            border-top: 20px solid $color__primary;
-            border-left: 20px solid transparent;
-            border-right: 20px solid transparent;
-            left: 47%;
-            top: 100%;
-            transform: translate(0, 0);
-
-            &.secondary {
-               border-left: 20px solid transparent;
-               border-top: 20px solid $color__secondary;
-            }
-
-            &.third {
-               border-left: 20px solid transparent;
-               border-top: 20px solid $color__third;
-            }
-
-            &.fourth {
-               border-left: 20px solid transparent;
-               border-top: 20px solid $color__fourth;
-            }
-         }
       }
 
       .bg-gestion-comunidad {
          height: 300px;
          width: 100%;
          position: relative;
+         background-position: center center;
       }
 
       .ctn-comunidad {

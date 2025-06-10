@@ -41,7 +41,7 @@
 								</button>
 
 								<div class="offcanvas offcanvas-end" id="primaryMenu">
-									<div class="offcanvas-body">
+									<div class="offcanvas-body justify-content-end align-items-center">
 										<div class="d-flex aling-items-center justify-content-between d-lg-none mb-4 pt-4">
 											<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-verde-riduco-e1738529807917.png" alt="Riduco" class="img-fluid" width="150">
 
@@ -95,6 +95,7 @@
 										</ul>
 									</div>
 								</div>
+								<?php echo do_shortcode('[gtranslate]'); ?>
 							</div>
 						</nav>
 					</div>

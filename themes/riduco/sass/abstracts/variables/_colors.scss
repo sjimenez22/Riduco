@@ -24,6 +24,7 @@ $color__primary: #014f2a;
 $color__secondary: #029452;
 $color__third: #aacf0d;
 $color__fourth: #6fb539;
+$color__fifth: #87c558;
 
 // Color variations
 $color__secondary-08: rgba(2, 148, 82, 0.08);
@@ -33,3 +34,5 @@ $color__background-third-primary: linear-gradient(90deg, $color__third 50%, $col
 $color__background-third-primary-mobile: linear-gradient(180deg, $color__third 50%, $color__primary 50%);
 $color__background-secondary-fourth: linear-gradient(90deg, $color__secondary 50%, $color__fourth 50%);
 $color__background-secondary-fourth-mobile: linear-gradient(180deg, $color__secondary 50%, $color__fourth 50%);
+$color__background-secondary-fifth: linear-gradient(90deg, $color__secondary 50%, $color__fifth 50%);
+$color__background-secondary-fifth-mobile: linear-gradient(180deg, $color__secondary 50%, $color__fifth 50%);

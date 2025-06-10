@@ -25,8 +25,7 @@ get_header();
       <div class="row justify-content-center">
          <div class="col-12 col-md-8">
             <p class="text-primary text-center">
-               En RIDUCO estamos en búsqueda constante de nuevos colaboradores para hacer parte de nuestro equipo de trabajo o del equipo de nuestras empresas clientes. Si estás interesado en ser evaluado, envíanos tu hoja de vida ahora mismo a
-               <a href="mailto:recepcion@riduco.com.co" class="text-secondary">recepcion@riduco.com.co</a>. No pierdas esta oportunidad de formar parte de nuestro éxito.
+               En Riduco estamos en búsqueda constante de nuevos colaboradores para hacer parte de nuestro equipo de trabajo o del equipo de nuestras empresas clientes. Si estás interesado en ser evaluado, envíanos tu hoja de vida ahora mismo a <a href="mailto:recepcion@riduco.com.co" class="text-secondary">recepcion@riduco.com.co</a>. No pierdas esta oportunidad de formar parte de nuestro éxito.
             </p>
          </div>
       </div>

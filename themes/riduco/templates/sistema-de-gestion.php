@@ -25,7 +25,7 @@ get_header();
       <div class="row justify-content-center">
          <div class="col-12 col-lg-7">
             <p class="text-primary text-center">
-               RIDUCO trabaja de manera constante para alcanzar la excelencia, utilizando herramientas de mejora continua a lo largo de la cadena de valor. Esto permite una mayor producción, encontrar la causa raíz de los problemas y tener ambientes de trabajo más agradables. Además, nos posibilita satisfacer las necesidades de las partes interesadas, disminuir los desperdicios, optimizar el trabajo y aprender de las experiencias.
+               Riduco trabaja de manera constante para alcanzar la excelencia, utilizando herramientas de mejora continua a lo largo de la cadena de valor. Esto permite una mayor producción, encontrar la causa raíz de los problemas y tener ambientes de trabajo más agradables. Además, nos posibilita satisfacer las necesidades de las partes interesadas, disminuir los desperdicios, optimizar el trabajo y aprender de las experiencias.
             </p>
          </div>
 
@@ -46,12 +46,12 @@ get_header();
                <div class="text-center">
                   <div class="d-flex justify-content-center align-items-center">
                      <div class="title">
-                        <h2 class="fw-bold fs-6">Gestión de calidad</h2>
+                        <h2 class="fw-bold fs-6">Gestión de Calidad</h2>
                      </div>
                   </div>
 
                   <p class="text-description">
-                     Con nuestras certificaciones en ISO 9001 / IATF 16949, tenemos la fortaleza de ofrecer a nuestros clientes altos estándares de calidad con base en la mejora continua generando cada vez mayores niveles de productividad. Aseguramos nuestra cadena de suministro para la tranquilidad de nuestros clientes, con el establecimiento del Plan de continuidad para garantizar la oportunidad de nuestras entregas, mediante una adecuada gestión de riesgos.
+                     Con nuestras certificaciones en ISO 9001 / IATF 16949, tenemos la fortaleza de ofrecer a nuestros clientes altos estándares de calidad con base en la mejora continua generando cada vez mayores niveles de productividad.<br> Aseguramos nuestra cadena de suministro para la tranquilidad de nuestros clientes, con el establecimiento del Plan de continuidad para garantizar la oportunidad de nuestras entregas, mediante una adecuada gestión de riesgos.
                   </p>
                </div>
 
@@ -62,7 +62,7 @@ get_header();
                <div class="text-center">
                   <div class="d-flex justify-content-center align-items-center">
                      <div class="title secondary">
-                        <h2 class="fw-bold fs-6">Seguridad y salud en el trabajo</h2>
+                        <h2 class="fw-bold fs-6">Seguridad y Salud en el Trabajo</h2>
                      </div>
                   </div>
 
@@ -179,7 +179,7 @@ get_header();
          </div>
 
          <div class="col-12 col-md-6 text-center">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-oea.png" alt="CALIFICACIÓN OEA" class="img-fluid">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sello-oea.webp" alt="CALIFICACIÓN OEA" class="img-fluid">
          </div>
       </div>
    </div>

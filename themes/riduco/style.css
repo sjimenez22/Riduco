@@ -795,6 +795,10 @@ textarea {
 	background: linear-gradient(90deg, #029452 50%, #6fb539 50%);
 }
 
+.bg-gradient-secondary-fifth {
+	background: linear-gradient(90deg, #029452 50%, #87c558 50%);
+}
+
 .text-small {
 	font-size: 13px !important;
 }
@@ -1092,80 +1096,19 @@ ul li::marker {
 	background-size: cover;
 }
 
-.direccionamiento-estrategico .bg-sostenibilidad-empresarial {
-	background-color: #f4f4f4;
-	height: 400px;
-	left: 0;
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	width: 100%;
-	z-index: -1;
-}
-
-.direccionamiento-estrategico .bg-ambiental {
-	background-color: #014f2a;
-}
-
-.direccionamiento-estrategico .ctn-empresarial {
-	background: linear-gradient(90deg, #aacf0d 50%, #014f2a 50%);
-	position: relative;
-}
-
-.direccionamiento-estrategico .ctn-empresarial .ctn-description {
-	width: 75%;
-}
-
-.direccionamiento-estrategico .ctn-empresarial .triangle {
-	border-bottom: 50px solid transparent;
-	border-top: 50px solid transparent;
-	border-right: 40px solid #014f2a;
-	height: 0;
-	left: 48.5%;
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	width: 0;
-}
-
 .direccionamiento-estrategico .box-rse {
 	border-radius: 30px;
 	display: flex;
 	height: auto;
 	justify-content: center;
 	position: relative;
-	width: 20%;
+	width: 33%;
 }
 
 .direccionamiento-estrategico .box-rse .text-description {
 	font-size: 14px;
-	padding-left: 25px;
-	padding-right: 1px;
+	padding-inline: 15px;
 	text-align: left;
-}
-
-.direccionamiento-estrategico .box-rse .triangle {
-	border-bottom: 20px solid transparent;
-	border-top: 20px solid transparent;
-	border-left: 20px solid #014f2a;
-	height: 0;
-	left: 0;
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	width: 0;
-}
-
-.direccionamiento-estrategico .box-rse .triangle.secondary {
-	border-left: 20px solid #029452;
-}
-
-.direccionamiento-estrategico .box-rse .triangle.third {
-	border-left: 20px solid #aacf0d;
-}
-
-.direccionamiento-estrategico .box-rse .triangle.fourth {
-	border-left: 20px solid #6fb539;
 }
 
 .direccionamiento-estrategico .bg-gestion-comunidad {
@@ -1173,6 +1116,10 @@ ul li::marker {
 	background-position: right;
 	height: 100%;
 	position: absolute;
+}
+
+.direccionamiento-estrategico .ctn-comunidad .bg-additional {
+	background-color: #87c558;
 }
 
 .direccionamiento-estrategico .ctn-comunidad .triangle {
@@ -1192,6 +1139,10 @@ ul li::marker {
 	border-left: 20px solid #aacf0d;
 }
 
+.direccionamiento-estrategico .ctn-comunidad .triangle.fourth {
+	border-left: 20px solid #6fb539;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	.direccionamiento-estrategico .bg-gestion-comunidad {
 		right: 0;
@@ -1200,31 +1151,6 @@ ul li::marker {
 }
 
 @media screen and (max-width: 767px) {
-	.direccionamiento-estrategico .bg-ambiental {
-		background-color: #029452;
-	}
-	.direccionamiento-estrategico .ctn-empresarial {
-		background: unset;
-		position: relative;
-	}
-	.direccionamiento-estrategico .ctn-empresarial .bg-title {
-		background-color: #aacf0d;
-	}
-	.direccionamiento-estrategico .ctn-empresarial .bg-description {
-		background-color: #014f2a;
-	}
-	.direccionamiento-estrategico .ctn-empresarial .bg-description .ctn-description {
-		width: 95%;
-	}
-	.direccionamiento-estrategico .ctn-empresarial .triangle {
-		border-bottom: 30px solid #014f2a;
-		border-left: 40px solid transparent;
-		border-right: 40px solid transparent;
-		border-top: 0;
-		left: 50%;
-		top: 35.5%;
-		transform: translate(-50%, 0);
-	}
 	.direccionamiento-estrategico .box-rse {
 		width: 100%;
 		margin-bottom: 2rem;
@@ -1233,31 +1159,11 @@ ul li::marker {
 		padding-inline: 1rem;
 		text-align: center;
 	}
-	.direccionamiento-estrategico .box-rse .triangle {
-		border-bottom: 0;
-		border-top: 20px solid #014f2a;
-		border-left: 20px solid transparent;
-		border-right: 20px solid transparent;
-		left: 47%;
-		top: 100%;
-		transform: translate(0, 0);
-	}
-	.direccionamiento-estrategico .box-rse .triangle.secondary {
-		border-left: 20px solid transparent;
-		border-top: 20px solid #029452;
-	}
-	.direccionamiento-estrategico .box-rse .triangle.third {
-		border-left: 20px solid transparent;
-		border-top: 20px solid #aacf0d;
-	}
-	.direccionamiento-estrategico .box-rse .triangle.fourth {
-		border-left: 20px solid transparent;
-		border-top: 20px solid #6fb539;
-	}
 	.direccionamiento-estrategico .bg-gestion-comunidad {
 		height: 300px;
 		width: 100%;
 		position: relative;
+		background-position: center center;
 	}
 	.direccionamiento-estrategico .ctn-comunidad .triangle {
 		border-bottom: 0;
@@ -1651,7 +1557,7 @@ main.home .mision .img-mision {
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, 0);
-	width: 550px;
+	width: 750px;
 }
 
 @media screen and (max-width: 992px) {
@@ -1660,7 +1566,7 @@ main.home .mision .img-mision {
 	}
 	main.home .mision .img-mision {
 		position: relative;
-		width: 300px;
+		width: 500px;
 	}
 }
 
@@ -1712,11 +1618,13 @@ main.home .unidades-negocio .image:hover img {
 
 main.home .ctn-cerficates .certificates {
 	text-align: center;
+	margin-top: 1rem;
 }
 
 main.home .ctn-cerficates .certificates img {
 	object-fit: contain;
-	aspect-ratio: 16/9;
+	aspect-ratio: 1/1;
+	width: 159px;
 }
 
 @media screen and (max-width: 767px) {

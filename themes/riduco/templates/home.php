@@ -105,11 +105,11 @@ get_header();
             <div class="col-12 col-lg-4 offset-lg-4 text-center text-lg-start">
                <h2 class="fw-bold fs-4 text-third">Visión</h2>
                <p class="text-white">
-                  Para el 2030, RIDUCO se mantendrá como una empresa de clase mundial, comprometida con el desarrollo sostenible, incrementando la rentabilidad y la participación en el mercado, como aliado estratégico de sus clientes, a través de la excelencia operacional y un equipo humano competente.
+                  Para el 2030, Riduco se mantendrá como una empresa de clase mundial, comprometida con el desarrollo sostenible, incrementando la rentabilidad y la participación en el mercado, como aliado estratégico de sus clientes, a través de la excelencia operacional y un equipo humano competente.
                </p>
             </div>
 
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/mision-vision-home-e1738514187952.png" alt="Misión y visión" class="img-mision mt-md-4 mt-lg-none">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/manos-home.webp" alt="Misión y visión" class="img-mision mt-md-4 mt-lg-none">
          </div>
       </div>
    </div>
@@ -219,8 +219,21 @@ get_header();
                <p class="text-secondary fw-bold fs-5">IATF 16949</p>
             </div>
             <div class="certificates">
-               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-oea.png" alt="ISO 9001" class="img-fluid">
-               <p class="text-secondary fw-bold fs-5">CALIFICACIÓN OEA</p>
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sello-energia-verde-epm.webp" alt="Energía Verde epm" class="img-fluid">
+            </div>
+         </div>
+
+         <div class="col-12 col-md-9 ctn-cerficates d-block d-md-flex align-items-center justify-content-between">
+            <div class="certificates">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sello-objetivos-desarrollo-sostenible.webp" alt="Objetivos de desarrollo sostenible" class="img-fluid">
+            </div>
+
+            <div class="certificates">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sello-andi.webp" alt="ANDI" class="img-fluid">
+            </div>
+
+            <div class="certificates">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sello-oea.webp" alt="Operador Económico Autorizado" class="img-fluid">
             </div>
          </div>
       </div>
