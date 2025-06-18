@@ -168,36 +168,40 @@ function riduco_scripts()
 
 	wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array(), '5.3.3', true);
 
-	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), '0.0.1', true);
+	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), _S_VERSION, true);
 
 	wp_enqueue_script('splide', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js', array(), '4.1.4', true);
 
 	if (is_page_template('templates/nuestra-historia.php')) {
-		wp_enqueue_script('history', get_template_directory_uri() . '/js/history.js', array(), '0.0.1', true);
+		wp_enqueue_script('history', get_template_directory_uri() . '/js/history.js', array(), _S_VERSION, true);
 	}
 
 	if (is_page_template('templates/inyeccion.php')) {
-		wp_enqueue_script('injection', get_template_directory_uri() . '/js/injection.js', array(), '0.0.1', true);
+		wp_enqueue_script('injection', get_template_directory_uri() . '/js/injection.js', array(), _S_VERSION, true);
 	}
 
 	if (is_page_template('templates/moldes.php')) {
-		wp_enqueue_script('moldes', get_template_directory_uri() . '/js/moldes.js', array(), '0.0.1', true);
+		wp_enqueue_script('moldes', get_template_directory_uri() . '/js/moldes.js', array(), _S_VERSION, true);
 	}
 
 	if (is_page_template('templates/extrusion-y-peletizado.php')) {
-		wp_enqueue_script('extrusion', get_template_directory_uri() . '/js/extrusion.js', array(), '0.0.1', true);
+		wp_enqueue_script('extrusion', get_template_directory_uri() . '/js/extrusion.js', array(), _S_VERSION, true);
 	}
 
 	if (is_page_template('templates/productos.php')) {
-		wp_enqueue_script('products', get_template_directory_uri() . '/js/products.js', array(), '0.0.1', true);
+		wp_enqueue_script('products', get_template_directory_uri() . '/js/products.js', array(), _S_VERSION, true);
 	}
 
 	if (is_page_template('templates/sectores.php')) {
-		wp_enqueue_script('sectors', get_template_directory_uri() . '/js/sectors.js', array(), '0.0.1', true);
+		wp_enqueue_script('sectors', get_template_directory_uri() . '/js/sectors.js', array(), _S_VERSION, true);
 	}
 
 	if (is_page_template('templates/contacto.php')) {
-		wp_enqueue_script('contact', get_template_directory_uri() . '/js/contact.js', array(), '0.0.1', true);
+		wp_enqueue_script('contact', get_template_directory_uri() . '/js/contact.js', array(), _S_VERSION, true);
+	}
+
+	if (is_page_template('templates/sostenibilidad.php')) {
+		wp_enqueue_script('sostenibilidad', get_template_directory_uri() . '/js/sostenibilidad.js', array(), _S_VERSION, true);
 	}
 
 	wp_localize_script(

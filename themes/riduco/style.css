@@ -1656,6 +1656,132 @@ main.contact .box-form textarea:checked {
 	border-color: #aacf0d;
 }
 
+main.sostenibilidad .splide-ods .title {
+	background-color: #014f2a;
+	margin-bottom: 0;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+main.sostenibilidad .splide-ods .box-ods {
+	border: 5px solid #014f2a;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	height: 370px;
+}
+
+main.sostenibilidad .splide-ods .box-ods .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main.sostenibilidad .bg-pasto {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0.4;
+}
+
+main.sostenibilidad .sct-gobierno img {
+	width: 100px;
+	aspect-ratio: 1/1;
+	object-fit: contain;
+}
+
+main.sostenibilidad .img-acciones {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main.sostenibilidad .sct-iniciativas .box-iniciativa {
+	border-top: 2px solid #014f2a;
+	border-left: 2px solid #014f2a;
+	border-right: 2px solid #014f2a;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 390px;
+}
+
+main.sostenibilidad .sct-iniciativas .box-information {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	height: 290px;
+}
+
+main.sostenibilidad .content-iniciativas {
+	border: 2px solid #fff;
+	border-radius: 30px;
+}
+
+main.sostenibilidad .triangle {
+	width: 0;
+	height: 0;
+	border: 120px solid transparent;
+	border-bottom: 0;
+	border-top: 70px solid #fff;
+	margin-bottom: 1rem;
+}
+
+main.sostenibilidad .content-target-list {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+main.sostenibilidad .content-target {
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+}
+
+main.sostenibilidad .splide__track {
+	transition: height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+main.sostenibilidad .splide__list {
+	transition: height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@media screen and (max-width: 767px) {
+	main.sostenibilidad .splide-ods .box-ods {
+		height: auto;
+	}
+	main.sostenibilidad .sct-iniciativas .box-iniciativa,
+	main.sostenibilidad .sct-iniciativas .box-information {
+		height: auto;
+	}
+	main.sostenibilidad .content-iniciativas {
+		margin-inline: 0.25rem;
+	}
+	main.sostenibilidad .triangle {
+		border: 40px solid transparent;
+		border-top: 40px solid #fff;
+		margin-bottom: 0;
+	}
+	main.sostenibilidad .content-target-list {
+		border-top: 2px solid #fff;
+		border-right: 2px solid #fff;
+		border-left: 2px solid #fff;
+		border-bottom: 0;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 0;
+	}
+	main.sostenibilidad .content-target {
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 30px;
+	}
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

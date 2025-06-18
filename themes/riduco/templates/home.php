@@ -33,7 +33,7 @@ get_header();
 
                      <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
 
-                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
+                     <img src="https://placehold.co/500" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
                      <div class="text-end mt-4">
                         <a href="#" class="text-third">Seguir leyendo</a>
@@ -48,7 +48,7 @@ get_header();
 
                      <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
 
-                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
+                     <img src="https://placehold.co/500" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
                      <div class="text-end mt-4">
                         <a href="#" class="text-third">Seguir leyendo</a>
@@ -63,7 +63,7 @@ get_header();
 
                      <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at</p>
 
-                     <img src="https://placehold.co/1000" alt="Imagen blog" class="img-fluid d-none d-lg-block">
+                     <img src="https://placehold.co/500" alt="Imagen blog" class="img-fluid d-none d-lg-block">
 
                      <div class="text-end mt-4">
                         <a href="#" class="text-third">Seguir leyendo</a>

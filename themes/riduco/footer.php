@@ -56,6 +56,10 @@
 							<p class="ms-2 mb-0 notranslate">Riduco</p>
 						</a>
 					</li>
+
+					<li>
+						<a href="#" class="small">Tratamiento de datos personales</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -63,7 +67,7 @@
 		<div class="row pt-3 second-footer">
 			<div class="col-12 text-center">
 				<p class="mb-1">Manizales - Caldas - Colombia - Sur América</p>
-				<p class="mb-0">Todos los derechos reservados 2019 - Powered by Am Coppiano (O RIDUCO)</p>
+				<p class="mb-0">Todos los derechos reservados 2019 - Powered by RIDUCO</p>
 			</div>
 		</div>
 	</div>
