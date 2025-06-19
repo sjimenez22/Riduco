@@ -14,12 +14,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main sostenibilidad">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="container mt-4 mt-md-5">
       <div class="row">
@@ -263,7 +258,7 @@ get_header();
             <div class="col-12 col-lg-2 img-acciones d-none d-lg-block order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/06/imagen-acciones-sostenibilidad-desktop.webp);">
             </div>
 
-            <div class="col-12 col-lg-2 img-acciones d-block d-lg-none order-1 order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/01/mision-vision-mobile.png); height: 180px;">
+            <div class="col-12 col-lg-2 img-acciones d-block d-lg-none order-1 order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/06/imagen-acciones-sostenibilidad-mobile.webp); height: 180px;">
             </div>
 
             <div class="col-12 col-lg-5 py-3 py-lg-5 order-3">
@@ -622,7 +617,7 @@ get_header();
    <div class="container mt-4 mt-md-5">
       <div class="row">
          <div class="col-12 text-center">
-            <a href="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sostenibilidad-2024.pdf" class="btn btn-primary text-decoration-none fs-4">
+            <a href="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sostenibilidad-2024.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-decoration-none fs-4 text-white">
                Lee nuestro informe de sostenibilidad
             </a>
          </div>

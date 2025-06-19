@@ -32,40 +32,17 @@ const submitFormContact = () => {
             dataForm.append('url', window.location.href);
 
             insertUser(dataForm).then(res => {
-               console.log(res);
+               if (res.success && res.data) {
+                  insertUserDrive(res.data.data).then(resDrive => {
+                     const myModal = new bootstrap.Modal(document.getElementById('contactModal'));
+                     myModal.show();
 
-               if (res.status === 'success' && res.data) {
+                     spinnerForm.classList.add('d-none');
+                     btnSubmit.removeAttribute('disabled');
 
-                  // let stringData = '';
-                  // dataForm.forEach(function (value, key) {
-                  //    stringData += `${key}=${value}&`;
-                  // });
-
-                  // insertUserDrive(stringData).then(resDrive => {
-                  //    let message = document.getElementsByClassName('modal-text');
-                  //    message[0].innerHTML = res.message;
-
-                  //    const myModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
-                  //    myModal.show();
-
-                  //    let cityActive = form.querySelector('p.active');
-                  //    cityActive.classList.remove('active');
-
-                  //    spinnerForm.classList.add('d-none');
-                  //    btnSubmit.removeAttribute('disabled');
-
-                  //    form.classList.remove('was-validated');
-                  //    form.reset();
-                  // });
-               } else {
-                  // let message = document.getElementsByClassName('modal-text');
-                  // message[0].innerHTML = res.message;
-
-                  // const myModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
-                  // myModal.show();
-
-                  // spinnerForm.classList.add('d-none');
-                  // btnSubmit.removeAttribute('disabled');
+                     form.classList.remove('was-validated');
+                     form.reset();
+                  });
                }
             });
          }
@@ -74,7 +51,7 @@ const submitFormContact = () => {
 }
 
 async function insertUser(dataForm) {
-   const response = await fetch('inc/lib', {
+   const response = await fetch(ajax_bones.ajaxurl, {
       method: 'POST',
       body: dataForm
    });
@@ -82,8 +59,16 @@ async function insertUser(dataForm) {
 }
 
 async function insertUserDrive(json) {
-   const response = await fetch(`https://script.google.com/macros/s/AKfycby8pYdJZnD4YHNYlTaXElMfNghIPAA9H_x7usIO9nOMP2TfEVH-whHQjKUwjvK4kH8Ldg/exec?${json}`, {
-      method: 'GET'
+   const formBody = Object.keys(json).map(key => {
+      return encodeURIComponent(key) + '=' + encodeURIComponent(json[key]);
+   }).join('&');
+
+   const response = await fetch(`https://script.google.com/macros/s/AKfycbySQXT_gfydz1SLbmIP7gaigT39gYmr1D5D88JPZg8GhkWipGQeooxFl5J8renF0WiZ/exec?${json}`, {
+      method: 'POST',
+      headers: {
+         'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      body: formBody
    });
    return response.json();
 }

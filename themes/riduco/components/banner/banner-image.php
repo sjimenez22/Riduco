@@ -1,9 +1,9 @@
 <?php
-$image = $args['image'] ?? 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg';
+$image = $args['image'] ?? get_field('banner');
 $title = $args['title'] ?? get_the_title();
 ?>
 
-<div class="bg-img-banner" style="background-image: url('<?php echo esc_url($image); ?>');">
+<div class="bg-img-banner" style="background-image: url('<?php echo esc_url($image['url']); ?>');">
    <div class="bg-overlay">
       <div class="container">
          <div class="row">

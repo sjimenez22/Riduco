@@ -14,12 +14,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main direccionamiento-estrategico">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="bg-secondary mt-lg-4 position-relative">
       <div class="container">
@@ -34,7 +29,7 @@ get_header();
             <div class="col-12 col-lg-2 img-mision-vision d-none d-lg-block order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/06/mision-vision-direccionamiento.png);">
             </div>
 
-            <div class="col-12 col-lg-2 img-mision-vision d-block d-lg-none order-1 order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/01/mision-vision-mobile.png); height: 180px;">
+            <div class="col-12 col-lg-2 img-mision-vision d-block d-lg-none order-1 order-lg-2" style="background-image: url(<?php echo site_url() ?>/wp-content/uploads/2025/06/mision-vision-mobile.webp); height: 180px;">
             </div>
 
             <div class="col-12 col-lg-5 py-3 py-lg-5 text-center text-lg-start order-3">

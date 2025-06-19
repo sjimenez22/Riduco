@@ -24,12 +24,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main products">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="container my-4 my-5">
       <div class="row mb-4">
@@ -48,20 +43,23 @@ get_header();
       <div class="row justify-content-center">
          <?php if ($sectors->have_posts()):
             while ($sectors->have_posts()) : $sectors->the_post();
+               $gallery_imgs = get_field('images');
          ?>
                <div class="col-12 col-md-6 mb-4">
                   <section class="splide splide-sector" aria-label="Splide Basic HTML Example">
                      <div class="splide__track">
                         <ul class="splide__list">
-                           <li class="splide__slide text-center">
-                              <img src="https://placehold.co/300" alt="Imagen sector" class="img-fluid">
-                           </li>
-                           <li class="splide__slide text-center">
-                              <img src="https://placehold.co/300" alt="Imagen sector" class="img-fluid">
-                           </li>
-                           <li class="splide__slide text-center">
-                              <img src="https://placehold.co/300" alt="Imagen sector" class="img-fluid">
-                           </li>
+                           <?php if (isset($gallery_imgs) &&  count($gallery_imgs) > 0) : ?>
+                              <?php foreach ($gallery_imgs as $image) : ?>
+                                 <li class="splide__slide text-center">
+                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" width="300">
+                                 </li>
+                              <?php endforeach; ?>
+                           <?php else : ?>
+                              <li class="splide__slide text-center">
+                                 <img src="https://placehold.co/300" alt="Dummy" width="300">
+                              </li>
+                           <?php endif; ?>
                         </ul>
                      </div>
                   </section>

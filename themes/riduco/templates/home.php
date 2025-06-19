@@ -15,9 +15,6 @@ get_header();
 
 <main id="primary" class="site-main home">
    <?php
-   $data = [
-      'video' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
    get_template_part('components/banner/banner', 'video', $data);
    ?>
 
@@ -74,7 +71,7 @@ get_header();
          </div>
 
          <div class="col-12 text-center mt-4">
-            <a href="#" class="btn btn-third">Conocé más blogs</a>
+            <a href="<?php echo site_url(); ?>/blog" class="btn btn-third">Conocé más blogs</a>
          </div>
       </div>
 
@@ -128,20 +125,28 @@ get_header();
 
    <div class="container-fluid mt-4 unidades-negocio px-0">
       <div class="image">
-         <img src="https://placehold.co/400x300" alt="Prueba" class="img-fluid">
-         <p class="fw-bold text-white title fs-2">Inyección</p>
+         <a href="<?php echo site_url(); ?>/inyeccion" class="text-decoration-none image">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/unidad-inyeccion-home.webp" alt="Inyección" class="img-fluid">
+            <p class="fw-bold text-white title fs-2">Inyección</p>
+         </a>
       </div>
       <div class="image">
-         <img src="https://placehold.co/400x300" alt="Prueba" class="img-fluid">
-         <p class="fw-bold text-white title fs-2">Extrusión <br> y peletizado</p>
+         <a href="<?php echo site_url(); ?>/extrusion-paletizado" class="text-decoration-none image">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/unidad-extrusion-home.webp" alt="Extrusión y peletizado" class="img-fluid">
+            <p class="fw-bold text-white title fs-2">Extrusión <br> y peletizado</p>
+         </a>
       </div>
       <div class="image">
-         <img src="https://placehold.co/400x300" alt="Prueba" class="img-fluid">
-         <p class="fw-bold text-white title fs-2">Productos <br> propios</p>
+         <a href="<?php echo site_url(); ?>/productos" class="text-decoration-none image">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/unidad-productos-home.webp" alt="Productos propios" class="img-fluid">
+            <p class="fw-bold text-white title fs-2">Productos <br> propios</p>
+         </a>
       </div>
       <div class="image">
-         <img src="https://placehold.co/400x300" alt="Prueba" class="img-fluid">
-         <p class="fw-bold text-white title fs-2">Moldes</p>
+         <a href="<?php echo site_url(); ?>/moldes" class="text-decoration-none image">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/unidad-moldes-home.webp" alt="Moldes" class="img-fluid">
+            <p class="fw-bold text-white title fs-2">Moldes</p>
+         </a>
       </div>
    </div>
 
@@ -149,7 +154,7 @@ get_header();
       <div class="container">
          <div class="row">
             <div class="col-12 col-md-6 align-self-center">
-               <img src="https://placehold.co/1000" alt="Imagen" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/donde-estamos-home.webp" alt="Donde estamos" class="img-fluid">
             </div>
 
             <div class="col-12 col-md-6 align-self-center py-4">
@@ -187,7 +192,7 @@ get_header();
                </div>
 
                <div class="text-center">
-                  <a href="#" class="btn btn-third fs-5 px-4">Continua leyendo</a>
+                  <a href="<?php echo site_url(); ?>/sectores" class="btn btn-third fs-5 px-4">Continua leyendo</a>
                </div>
             </div>
          </div>
@@ -211,11 +216,11 @@ get_header();
 
          <div class="col-12 col-md-9 ctn-cerficates d-block d-md-flex align-items-center justify-content-between">
             <div class="certificates">
-               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-iso-9001.png" alt="ISO 9001" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-icontec.webp" alt="Certificado Icontec ISO 9001" class="img-fluid">
                <p class="text-secondary fw-bold fs-5">IATF 16949</p>
             </div>
             <div class="certificates">
-               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-iatf-16949.png" alt="ISO 9001" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-iatf-16949.png" alt="ISO 9001" class="img-fluid">
                <p class="text-secondary fw-bold fs-5">IATF 16949</p>
             </div>
             <div class="certificates">
@@ -233,7 +238,7 @@ get_header();
             </div>
 
             <div class="certificates">
-               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sello-oea.webp" alt="Operador Económico Autorizado" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-oea.png" alt="Certificado OEA" class="img-fluid">
             </div>
          </div>
       </div>

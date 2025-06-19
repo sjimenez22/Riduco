@@ -10,11 +10,12 @@ get_header();
 
 $blog_page_id = get_option('page_for_posts');
 $blog_page_title = get_the_title($blog_page_id);
+$image = get_field('banner', $blog_page_id);
 ?>
 <main class="blog">
    <?php
    $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg',
+      'image' => $image,
       'title' => $blog_page_title
    ];
    get_template_part('components/banner/banner', 'image', $data);

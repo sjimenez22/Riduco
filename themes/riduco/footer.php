@@ -16,7 +16,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6 col-lg-3 align-self-center text-center order-4 order-md-1 mt-4 mt-md-none">
-				<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-verde-riduco-e1738529807917.png" alt="Riduco" class="img-fluid">
+				<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/logo-riduco-verde.webp" alt="Riduco S.A." class="img-fluid">
 				<p class="mt-1 text-secondary">Copyright Riduco</p>
 			</div>
 			<div class="col-12 col-md-6 col-lg-3 text-center text-lg-start order-1 order-md-2">
@@ -51,14 +51,14 @@
 
 				<ul>
 					<li>
-						<a href="https://www.facebook.com/pages/Riduco/208838349139595" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center justify-content-lg-start">
-							<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-facebook.png" alt="Facebook" class="img-fluid">
-							<p class="ms-2 mb-0 notranslate">Riduco</p>
+						<a href="https://www.linkedin.com/company/riduco-s-a/" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center justify-content-lg-start">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/logo-linkedin.png" alt="Facebook" class="img-fluid">
+							<p class="ms-2 mb-0 notranslate">Riduco S.A</p>
 						</a>
 					</li>
 
 					<li>
-						<a href="#" class="small">Tratamiento de datos personales</a>
+						<a href="<?php echo site_url(); ?>/wp-content/uploads/2025/06/tratamiento-de-datos.pdf" class="small">Tratamiento de datos personales</a>
 					</li>
 				</ul>
 			</div>
@@ -67,7 +67,7 @@
 		<div class="row pt-3 second-footer">
 			<div class="col-12 text-center">
 				<p class="mb-1">Manizales - Caldas - Colombia - Sur América</p>
-				<p class="mb-0">Todos los derechos reservados 2019 - Powered by RIDUCO</p>
+				<p class="mb-0">Todos los derechos reservados 2025 - Powered by RIDUCO S.A</p>
 			</div>
 		</div>
 	</div>

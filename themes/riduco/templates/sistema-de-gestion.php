@@ -14,12 +14,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main sistema-de-gestion">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="container mt-4 mt-md-5">
       <div class="row justify-content-center">
@@ -153,13 +148,13 @@ get_header();
          </div>
 
          <div class="col-12 col-md-6 text-center">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-iso-9001.png" alt="ISO 9001" class="img-fluid">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-icontec.webp" alt="Certificado Icontec ISO 9001" class="img-fluid">
          </div>
       </div>
 
       <div class="row">
          <div class="col-12 col-md-6 text-center order-2 order-md-1">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/01/certificado-iatf-16949.png" alt="Certificado IATF 16949" class="img-fluid">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-iatf-16949.png" alt="Certificado IATF 16949" class="img-fluid" width="350">
          </div>
 
          <div class="col-12 col-md-6 bg-secondary d-flex flex-column justify-content-center py-4 py-lg-0 order-1 order-md-2 text-center text-md-start">
@@ -179,7 +174,7 @@ get_header();
          </div>
 
          <div class="col-12 col-md-6 text-center">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sello-oea.webp" alt="CALIFICACIÓN OEA" class="img-fluid">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-oea.png" alt="Certificado OEA" class="img-fluid">
          </div>
       </div>
    </div>

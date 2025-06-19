@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded', e => {
-   e.preventDefault();
+document.addEventListener('DOMContentLoaded', () => {
 
    const elms = document.getElementsByClassName('splide');
-   for (var i = 0; i < elms.length; i++) {
+   for (let i = 0; i < elms.length; i++) {
       new Splide(elms[i], {
-         type: 'loop'
+         type: 'loop',
+         pagination: false
       }).mount();
    }
 });

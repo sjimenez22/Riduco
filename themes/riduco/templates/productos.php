@@ -22,12 +22,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main products">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="container my-4 my-5">
       <div class="row mb-4">

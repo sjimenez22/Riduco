@@ -14,12 +14,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="bg-secondary">
       <div class="container">
@@ -29,13 +24,19 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/fabricacion-1.webp" alt="Trabajador en zona de fabricación" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/fabricacion-2.webp" alt="Fabricación - Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/fabricacion-3.webp" alt="Diseño - Riduco" class="img-fluid">
+                        </li>
+                        <li class="splide__slide">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/fabricacion-4.webp" alt="Fabricación - Riduco" class="img-fluid">
+                        </li>
+                        <li class="splide__slide">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/fabricacion-5.webp" alt="Trabajadores en zona de fabricación en Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>
@@ -76,13 +77,10 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pilotaje-1.webp" alt="Diseño de productos en Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
-                        </li>
-                        <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pilotaje-2.webp" alt="Diseño de productos en Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>
@@ -100,13 +98,13 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/texturizado-1.webp" alt="Moldes texturizados Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/texturizado-2.webp" alt="Moldes texturizados Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/texturizado-3.webp" alt="Moldes texturizados Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>

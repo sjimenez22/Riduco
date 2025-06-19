@@ -40,7 +40,7 @@
 										alt="menu" width="30" class="img-fluid cursor-pointer" data-bs-dismiss="offcanvas">
 								</button>
 
-								<div class="offcanvas offcanvas-end" id="primaryMenu">
+								<div class="offcanvas offcanvas-end me-md-2" id="primaryMenu">
 									<div class="offcanvas-body justify-content-end align-items-center">
 										<div class="d-flex aling-items-center justify-content-between d-lg-none mb-4 pt-4">
 											<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/02/logo-verde-riduco-e1738529807917.png" alt="Riduco" class="img-fluid" width="150">

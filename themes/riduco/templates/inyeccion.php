@@ -14,12 +14,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="bg-secondary">
       <div class="container">
@@ -29,13 +24,13 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/maquina-inyectora-1.webp" alt="Máquina inyectora - Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/maquina-inyectora-2.webp" alt="Máquina inyectora - Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/maquina-inyectora-3.webp" alt="Máquina inyectora - Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>
@@ -198,13 +193,13 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/robot-1.webp" alt="Robot - Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/robot-2.webp" alt="Robot - Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/robot-3.webp" alt="Robot - Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>
@@ -222,13 +217,10 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/periferico-1.webp" alt="Periférico - Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
-                        </li>
-                        <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/periferico-2.webp" alt="Periférico - Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>
@@ -290,13 +282,10 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/complemetarios-1.webp" alt="Maquinas complementarias - Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
-                        </li>
-                        <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/complemetarios-2.webp" alt="Maquinas complementarias - Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>

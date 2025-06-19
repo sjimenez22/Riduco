@@ -4,6 +4,8 @@ $colorText = 'text-primary';
 
 if (isset($args['title'])) $title = $args['title'];
 if (isset($args['color'])) $colorText = $args['color'];
+
+$gallery_logos = get_field('logos', 'option');
 ?>
 
 <div class="container my-5">
@@ -13,33 +15,19 @@ if (isset($args['color'])) $colorText = $args['color'];
             <?php echo esc_html($title); ?>
          </h2>
 
-         <section class="splide splide-clients" aria-label="Carrusel de clientes">
-            <div class="splide__track">
-               <ul class="splide__list">
-                  <li class="splide__slide text-center">
-                     <img src="https://placehold.co/150" alt="Imagen prueba" class="img-fluid">
-                  </li>
-                  <li class="splide__slide text-center">
-                     <img src="https://placehold.co/150" alt="Imagen prueba" class="img-fluid">
-                  </li>
-                  <li class="splide__slide text-center">
-                     <img src="https://placehold.co/150" alt="Imagen prueba" class="img-fluid">
-                  </li>
-                  <li class="splide__slide text-center">
-                     <img src="https://placehold.co/150" alt="Imagen prueba" class="img-fluid">
-                  </li>
-                  <li class="splide__slide text-center">
-                     <img src="https://placehold.co/150" alt="Imagen prueba" class="img-fluid">
-                  </li>
-                  <li class="splide__slide text-center">
-                     <img src="https://placehold.co/150" alt="Imagen prueba" class="img-fluid">
-                  </li>
-                  <li class="splide__slide text-center">
-                     <img src="https://placehold.co/150" alt="Imagen prueba" class="img-fluid">
-                  </li>
-               </ul>
-            </div>
-         </section>
+         <?php if (count($gallery_logos) > 0) : ?>
+            <section class="splide splide-clients" aria-label="Carrusel de clientes">
+               <div class="splide__track">
+                  <ul class="splide__list">
+                     <?php foreach ($gallery_logos as $logo) : ?>
+                        <li class="splide__slide text-center">
+                           <img src="<?php echo esc_url($logo['url']); ?>" alt="<?php echo esc_attr($logo['alt']); ?>" width="150">
+                        </li>
+                     <?php endforeach; ?>
+                  </ul>
+               </div>
+            </section>
+         <?php endif; ?>
       </div>
    </div>
 </div>

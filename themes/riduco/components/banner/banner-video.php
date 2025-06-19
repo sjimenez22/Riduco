@@ -1,8 +1,1 @@
-<?php
-$video = '';
-if ($args['video']) $video = $args['video'];
-?>
-
-<div class="bg-img-banner" style="background-image: url('<?php echo esc_url($image); ?>');">
-   <div class="bg-overlay"></div>
-</div>
+<iframe src="https://www.youtube.com/embed/Mj9WptYJiJc?si=w02Tr_D3p8NFCm1e&autoplay=1&mute=1&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&cc_load_policy=0&loop=1&start=X&end=Y&controls=1&disablekb=1" title="YouTube video" allowfullscreen allow='autoplay; encrypted-media' width="100%" height="500px"></iframe>

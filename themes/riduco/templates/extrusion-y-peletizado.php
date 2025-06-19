@@ -14,12 +14,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main extrusion">
-   <?php
-   $data = [
-      'image' => 'https://riduco.com/wp-content/uploads/2022/07/direccionamiento_estrategico.jpg'
-   ];
-   get_template_part('components/banner/banner', 'image', $data);
-   ?>
+   <?php get_template_part('components/banner/banner', 'image'); ?>
 
    <div class="bg-secondary">
       <div class="container">
@@ -29,13 +24,19 @@ get_header();
                   <div class="splide__track">
                      <ul class="splide__list">
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/extrusion-1.webp" alt="Proceso de Extrusión de láminas rígidas en Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/extrusion-2.webp" alt="Proceso de Extrusión de láminas rígidas en Riduco" class="img-fluid">
                         </li>
                         <li class="splide__slide">
-                           <img src="https://placehold.co/1000" alt="Imagen prueba" class="img-fluid">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/extrusion-3.webp" alt="Proceso de Extrusión de láminas rígidas en Riduco" class="img-fluid">
+                        </li>
+                        <li class="splide__slide">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/extrusion-4.webp" alt="Proceso de Extrusión de láminas rígidas en Riduco" class="img-fluid">
+                        </li>
+                        <li class="splide__slide">
+                           <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/extrusion-5.webp" alt="Proceso de Extrusión de láminas rígidas en Riduco" class="img-fluid">
                         </li>
                      </ul>
                   </div>
@@ -113,7 +114,7 @@ get_header();
          <div class="col-12 col-md-9">
             <div class="row border-ext-plastico px-3 py-3">
                <div class="col-12 col-md-4 align-self-center text-center">
-                  <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
+                  <img src="<?php echo site_url() ?>/wp-content/uploads/2025/06/extrusion-rollo-burbuja-pequena.webp" alt="Rollo burbuja pequeña" class="img-fluid">
                </div>
                <div class="col-12 col-md-8 align-self-center">
                   <h3 class="text-third fw-bold">Rollo burbuja pequeña</h3>
@@ -132,7 +133,7 @@ get_header();
          <div class="col-12 col-md-9 mt-3">
             <div class="row border-ext-plastico px-3 py-3">
                <div class="col-12 col-md-4 align-self-center text-center">
-                  <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
+                  <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/extrusion-rollo-burbuja-grande.webp" alt="Rollo burbuja grande" class="img-fluid">
                </div>
                <div class="col-12 col-md-8 align-self-center">
                   <h3 class="text-third fw-bold">Rollo burbuja grande</h3>
@@ -156,7 +157,7 @@ get_header();
             <div class="col-12 col-md-9">
                <div class="row border-ext-plastico px-3 py-3">
                   <div class="col-12 col-md-4 align-self-center text-center">
-                     <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
+                     <img src="<?php echo site_url() ?>/wp-content/uploads/2025/06/extrusion-rollo-burbuja-pequena.webp" alt="Bolsas en plástico burbuja grande" class="img-fluid">
                   </div>
                   <div class="col-12 col-md-8 align-self-center">
                      <h3 class="text-third fw-bold">Bolsas en plástico burbuja grande</h3>
@@ -175,7 +176,7 @@ get_header();
             <div class="col-12 col-md-9 mt-3">
                <div class="row border-ext-plastico px-3 py-3">
                   <div class="col-12 col-md-4 align-self-center text-center">
-                     <img src="https://placehold.co/400" alt="Prueba" class="img-fluid">
+                     <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/extrusion-rollo-burbuja-grande.webp" alt="Bolsas en plástico burbuja pequeña" class="img-fluid">
                   </div>
                   <div class="col-12 col-md-8 align-self-center">
                      <h3 class="text-third fw-bold">Bolsas en plástico burbuja pequeña</h3>

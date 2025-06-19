@@ -1,4 +1,6 @@
 main.contact {
+   margin-top: 6rem;
+
    .box-form {
       background-color: $color__primary;
       border-radius: 20px;
@@ -19,5 +21,14 @@ main.contact {
             border-color: $color__third;
          }
       }
+
+      .was-validated .form-check-input:valid ~ .form-check-label,
+      .form-check-input.is-valid ~ .form-check-label {
+         color: #fff !important;
+      }
+   }
+
+   @media screen and (max-width: 767px) {
+      margin-top: 2rem;
    }
 }
