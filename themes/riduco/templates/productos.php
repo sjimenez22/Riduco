@@ -18,6 +18,9 @@ $args = array(
 );
 $cats = get_categories($args);
 
+$current_category = $_GET['categoria'] ?? 'all';
+if (!$current_category) $current_category = 'all';
+
 get_header();
 ?>
 
@@ -33,20 +36,31 @@ get_header();
          </div>
 
          <div class="col-12 text-center mt-4 mt-md-5 box-btns">
-            <button class="btn btn-product active" data-slug="all">Todos</button>
+            <button class="btn btn-product <?php if ($current_category === 'all') echo 'active' ?>" data-slug="all">Todos</button>
 
             <?php foreach ($cats as $category) : ?>
-               <button class="btn btn-product" data-slug="<?php echo esc_html($category->slug); ?>"><?php echo esc_html($category->name); ?></button>
+               <button class="btn btn-product <?php if ($current_category === $category->slug) echo 'active' ?>" data-slug="<?php echo esc_html($category->slug); ?>"><?php echo esc_html($category->name); ?></button>
             <?php endforeach; ?>
 
          </div>
 
-         <div class="col-12 text-center mt-4 sub-categories d-none box-btns">
+         <div class="col-12 text-center mt-4 sub-categories box-btns">
             <?php get_template_part('components/product/product', 'sub-category'); ?>
          </div>
       </div>
 
-      <?php get_template_part('components/product/product', 'loop'); ?>
+      <div class="row">
+         <div class="col-12">
+            <div class="text-center mt-4 mt-md-5 spinner-products d-none">
+               <div class="spinner-border text-primary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+               </div>
+            </div>
+            <div class="ctn-products-loop">
+               <?php get_template_part('components/product/product', 'loop'); ?>
+            </div>
+         </div>
+      </div>
    </div>
 </main><!-- #main -->
 

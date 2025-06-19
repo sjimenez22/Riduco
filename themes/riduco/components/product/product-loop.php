@@ -2,9 +2,20 @@
 
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-$category = ($_POST && $_POST['product_category']) ? $_POST['product_category'] : get_terms(['taxonomy' => 'product_category', 'fields' => 'slugs']);
+$category = null;
+if ($_GET && $_GET['categoria']) {
+   $term = get_term_by('slug', $_GET['categoria'], 'product_category');
+   if ($term && $term->parent == 0) $category = $_GET['categoria'];
+} else {
+   $category = get_terms(['taxonomy' => 'product_category', 'fields' => 'slugs']);
+}
 
 if ($category === 'all') $category = get_terms(['taxonomy' => 'product_category', 'fields' => 'slugs']);
+
+if (isset($_GET['subCategoria']) && $_GET['subCategoria']) {
+   $category = $_GET['subCategoria'];
+   // if (!$current_category) $current_category = 'all';
+}
 
 $argsProducts = [
    'post_type'      => 'products',
@@ -26,12 +37,6 @@ $products = new WP_Query($argsProducts);
 ?>
 
 <?php if ($products->have_posts()): ?>
-   <div class="text-center mt-4 mt-md-5 spinner-products d-none">
-      <div class="spinner-border text-primary" role="status">
-         <span class="visually-hidden">Loading...</span>
-      </div>
-   </div>
-
    <div class="product-list row mt-4">
       <?php
       while ($products->have_posts()) : $products->the_post();
