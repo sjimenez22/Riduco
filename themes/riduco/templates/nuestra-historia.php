@@ -304,6 +304,8 @@ get_header();
                <p>
                   Certificación ISO 16949 norma para el sector autopartista: Manufactura de piezas plásticas para interiores y exteriores
                </p>
+
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2008.webp" alt="Certificación ISO 16949" class="img-fluid">
             </div>
          </div>
 
@@ -318,6 +320,8 @@ get_header();
                <p>
                   Alianza estratégica con la Corporación Española Rinder para la producción de luminarias.
                </p>
+
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2013.webp" alt="Productos de luminarias" class="img-fluid">
             </div>
          </div>
 
@@ -364,6 +368,8 @@ get_header();
                <p>
                   CALIFICACION DE OPERADOR ECONOMICO AUTORIZADO para importar y exportar en la categoría de seguridad y facilitación.
                </p>
+
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2022.webp" alt="Calificación de la DIAN" class="img-fluid">
             </div>
          </div>
       </div>

@@ -219,7 +219,7 @@ get_header();
                <p class="text-secondary fw-bold fs-5">IATF 16949</p>
             </div>
             <div class="certificates">
-               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-iatf-16949.png" alt="ISO 9001" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-za.png" alt="ISO 9001" class="img-fluid">
                <p class="text-secondary fw-bold fs-5">IATF 16949</p>
             </div>
             <div class="certificates">

@@ -179,7 +179,7 @@ get_header();
 
          <picture>
             <source media="(max-width: 767px)" srcset="<?php echo site_url(); ?>/wp-content/uploads/2025/06/bg-pasto-mobile.webp">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pasto-desktop.webp" alt="Pasto" class="bg-pasto">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pasto-desktop.webp" alt="Pasto" class="bg-pasto" width="100%">
          </picture>
       </div>
    </div>
@@ -311,7 +311,7 @@ get_header();
 
          <picture>
             <source media="(max-width: 767px)" srcset="<?php echo site_url(); ?>/wp-content/uploads/2025/06/bg-pasto-mobile.webp">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pasto-desktop.webp" alt="Pasto" class="bg-pasto">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pasto-desktop.webp" alt="Pasto" class="bg-pasto" width="100%">
          </picture>
       </div>
    </div>
@@ -482,7 +482,7 @@ get_header();
 
          <picture>
             <source media="(max-width: 767px)" srcset="<?php echo site_url(); ?>/wp-content/uploads/2025/06/bg-pasto-mobile.webp">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pasto-desktop.webp" alt="Pasto" class="bg-pasto">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/pasto-desktop.webp" alt="Pasto" class="bg-pasto" width="100%">
          </picture>
       </div>
    </div>

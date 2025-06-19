@@ -154,7 +154,7 @@ get_header();
 
       <div class="row">
          <div class="col-12 col-md-6 text-center order-2 order-md-1">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-iatf-16949.png" alt="Certificado IATF 16949" class="img-fluid" width="350">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/certificado-za.png" alt="Certificado IATF 16949" class="img-fluid" width="350">
          </div>
 
          <div class="col-12 col-md-6 bg-secondary d-flex flex-column justify-content-center py-4 py-lg-0 order-1 order-md-2 text-center text-md-start">
