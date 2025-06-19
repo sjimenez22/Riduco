@@ -617,7 +617,7 @@ get_header();
    <div class="container mt-4 mt-md-5">
       <div class="row">
          <div class="col-12 text-center">
-            <a href="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sostenibilidad-2024.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-decoration-none fs-4 text-white">
+            <a href="<?php echo site_url(); ?>/wp-content/uploads/2025/06/sostenibilidad-2024.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-third text-decoration-none fs-4 text-white">
                Lee nuestro informe de sostenibilidad
             </a>
          </div>

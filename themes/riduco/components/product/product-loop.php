@@ -36,11 +36,14 @@ $products = new WP_Query($argsProducts);
       <?php
       while ($products->have_posts()) : $products->the_post();
          $information_table = get_field('information_table');
+         $thumbnail_id = get_post_thumbnail_id();
+         $attachment_image = wp_get_attachment_url($thumbnail_id);
+         $image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
       ?>
          <div class="col-12 mb-3 px-4 px-md-0">
             <div class="row box-products">
                <div class="col-12 col-md-2 align-self-center text-center mb-3 mb-md-0">
-                  <img src="https://placehold.co/500" alt="Producto" class="img-fluid" width="200">
+                  <img src="<?php echo esc_url($attachment_image); ?>" alt="<?php echo esc_attr($image_alt); ?>" class="img-fluid" width="200">
                </div>
 
                <div class="col-12 col-md-2 align-self-center text-center mb-3 mb-md-0">

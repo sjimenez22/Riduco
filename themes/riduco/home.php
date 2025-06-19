@@ -31,36 +31,29 @@ $image = get_field('banner', $blog_page_id);
             <?php
             while (have_posts()) :
                the_post();
+
+               $group_image = get_field('banners');
+               $image = isset($group_image['banner_mobile']) ? $group_image['banner_mobile'] : '';
             ?>
-               <div class="col-12 col-md-7 mb-4 mb-md-5">
-                  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+               <div class="col-12 col-md-4 mb-4 mb-md-5">
+                  <article id="post-<?php the_ID(); ?>" <?php post_class('blogs'); ?>>
                      <header class="entry-header mb-3">
-                        <?php
-                        $thumbnail_id = get_post_thumbnail_id();
-                        $url_image = get_the_post_thumbnail_url();
-                        $alt_text = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
-                        ?>
+                        <?php the_title(sprintf('<h2 class="entry-title fw-bold fs-3 mb-4 pt-3"><a href="%s" rel="bookmark" class="text-decoration-none text-primary">', esc_url(get_permalink())), '</a></h2>'); ?>
 
-                        <div class="entry-image mb-3">
-                           <img src="<?php echo esc_url($url_image); ?>" alt="<?php echo esc_attr($alt_text); ?>">
+                        <div class="text-excerpt mb-3">
+                           <?php the_excerpt(); ?>
                         </div>
-
-                        <?php the_title(sprintf('<h2 class="entry-title fw-bold text-uppercase fs-4 mb-3"><a href="%s" rel="bookmark" class="text-decoration-none text-dark">', esc_url(get_permalink())), '</a></h2>'); ?>
                      </header>
 
-                     <div class="entry-metadata mb-3">
-                        por <?php echo get_the_author(); ?> -
-                        <?php echo get_the_date(); ?>
+                     <div class="entry-image mb-3">
+                        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
                      </div>
 
-                     <div class="entry-summary">
-                        <?php the_excerpt(); ?>
+                     <div class="text-end">
+                        <a href="<?php echo esc_url(get_permalink()) ?>" class="text-third fw-bold text-decoration-none">
+                           <span>Seguir leyendo</span>
+                        </a>
                      </div>
-
-                     <a href="<?php echo esc_url(get_permalink()) ?>" class="text-dark text-decoration-none fw-normal">
-                        <span>Leer Más</span>
-                        <i class="bi bi-arrow-right"></i>
-                     </a>
                   </article>
                </div>
             <?php

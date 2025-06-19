@@ -21,53 +21,52 @@ get_header();
    <div class="container">
       <div class="row justify-content-center">
          <div class="col-12 col-md-9">
-            <div class="row ctn-blogs">
-               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-0">
-                  <div class="blogs">
-                     <p class="py-3 py-md-5 text-primary fw-bold text-category mb-0">Categoría</p>
+            <?php
+            $args = array(
+               'post_type'      => 'post',
+               'post_status'    => 'publish',
+               'orderby'        => 'date',
+               'order'          => 'DESC',
+               'posts_per_page' => 3,
+            );
 
-                     <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
+            $query_posts_publish = new WP_Query($args);
 
-                     <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
+            if ($query_posts_publish->have_posts()) :
+            ?>
+               <div class="row ctn-blogs">
+                  <?php
+                  while ($query_posts_publish->have_posts()) : $query_posts_publish->the_post();
 
-                     <img src="https://placehold.co/500" alt="Imagen blog" class="img-fluid d-none d-lg-block">
+                     $group_image = get_field('banners');
+                     $image = isset($group_image['banner_mobile']) ? $group_image['banner_mobile'] : '';
+                  ?>
+                     <div class="col-12 col-md-4 mb-4 mb-md-5">
+                        <article id="post-<?php the_ID(); ?>" <?php post_class('blogs'); ?>>
+                           <header class="entry-header mb-3">
+                              <?php the_title(sprintf('<h2 class="entry-title fw-bold fs-3 mb-4 pt-3"><a href="%s" rel="bookmark" class="text-decoration-none text-primary">', esc_url(get_permalink())), '</a></h2>'); ?>
 
-                     <div class="text-end mt-4">
-                        <a href="#" class="text-third">Seguir leyendo</a>
+                              <div class="text-excerpt mb-3">
+                                 <?php the_excerpt(); ?>
+                              </div>
+                           </header>
+
+                           <div class="entry-image mb-3">
+                              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+                           </div>
+
+                           <div class="text-end">
+                              <a href="<?php echo esc_url(get_permalink()) ?>" class="text-third fw-bold text-decoration-none">
+                                 <span>Seguir leyendo</span>
+                              </a>
+                           </div>
+                        </article>
                      </div>
-                  </div>
+                  <?php endwhile;
+                  wp_reset_postdata();
+                  ?>
                </div>
-               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-0">
-                  <div class="blogs">
-                     <p class="py-3 py-md-5 text-primary fw-bold text-category mb-0">Categoría</p>
-
-                     <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
-
-                     <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at vel aliquid veritatis iste illo expedita odio, molestias inventore alias non quae, quod suscipit impedit magni.</p>
-
-                     <img src="https://placehold.co/500" alt="Imagen blog" class="img-fluid d-none d-lg-block">
-
-                     <div class="text-end mt-4">
-                        <a href="#" class="text-third">Seguir leyendo</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-12 col-lg-4 position-relative mb-4 mb-lg-0">
-                  <div class="blogs">
-                     <p class="py-3 py-md-5 text-primary fw-bold text-category mb-0">Categoría</p>
-
-                     <h2 class="fw-bold text-primary fs-3 mb-4">Titulo de una nueva entrada</h2>
-
-                     <p class="text-excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit ratione autem dolorum at</p>
-
-                     <img src="https://placehold.co/500" alt="Imagen blog" class="img-fluid d-none d-lg-block">
-
-                     <div class="text-end mt-4">
-                        <a href="#" class="text-third">Seguir leyendo</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+            <?php endif; ?>
          </div>
 
          <div class="col-12 text-center mt-4">

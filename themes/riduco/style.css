@@ -1528,6 +1528,15 @@ main.home .ctn-blogs .blogs {
 	z-index: 1;
 }
 
+main.home .ctn-blogs .blogs .entry-title {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	line-clamp: 3;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
 main.home .ctn-blogs .blogs .text-category {
 	font-size: 12px;
 }
@@ -1794,6 +1803,102 @@ main.sostenibilidad .splide__list {
 		border-top-right-radius: 0;
 		border-bottom-left-radius: 30px;
 	}
+}
+
+main.blog .blogs {
+	background-color: #fff;
+	border-radius: 25px;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
+	height: 100%;
+	padding-bottom: 1rem;
+	padding-inline: 1.2rem;
+	z-index: 1;
+}
+
+main.blog .blogs .entry-title {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	line-clamp: 2;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+main.blog .blogs .text-category {
+	font-size: 12px;
+}
+
+main.blog .blogs .text-excerpt {
+	height: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+main.single-post .bg-img-banner {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+}
+
+main.single-post .bg-img-banner .bg-overlay {
+	align-items: flex-end;
+	background-color: transparent;
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.231) 0%, rgba(0, 0, 0, 0.7) 100%);
+	display: flex;
+	height: 80vh;
+	transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	main.single-post .bg-img-banner {
+		height: 60vh;
+	}
+	main.single-post .bg-img-banner .bg-overlay {
+		height: 60vh;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	main.single-post .bg-img-banner {
+		height: 40vh;
+	}
+	main.single-post .bg-img-banner .bg-overlay {
+		height: 40vh;
+	}
+}
+
+main.single-post h1, main.single-post .h1,
+main.single-post h2,
+main.single-post .h2,
+main.single-post h3,
+main.single-post .h3,
+main.single-post h4,
+main.single-post .h4,
+main.single-post h5,
+main.single-post .h5,
+main.single-post h6,
+main.single-post .h6 {
+	color: #014f2a;
+}
+
+main.single-post ul,
+main.single-post ol {
+	margin-left: 0.3rem;
+}
+
+main.single-post .box-recent-post {
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+}
+
+main.single-post .box-recent-post .content .entry-title {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	line-clamp: 2;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
 
 /*--------------------------------------------------------------
