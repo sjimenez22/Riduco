@@ -17,7 +17,7 @@ get_header();
    <div class="container pt-5">
       <div class="row">
          <div class="col-12 col-md-6 mb-3 mb-md-0">
-            <img src="http://localhost:10011/wp-content/uploads/2025/06/img-contacto.webp" alt="Trabajador Riduco" class="img-fluid" style="border-radius: 25px;">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/img-contacto.webp" alt="Trabajador Riduco" class="img-fluid" style="border-radius: 25px;">
          </div>
          <div class="col-12 col-md-6">
             <h1 class="fw-bold text-primary fs-2">

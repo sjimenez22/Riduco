@@ -46,7 +46,7 @@ get_header();
                   El señor Rivas Gutiérrez prefiere continuar con su negocio de joyería y decide poner en venta su pequeño taller. Ante este hecho, su hijo manifiesta el interés por mantener el taller y decide trabajar en éste visualizando un potencial de crecimiento industrial.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1964.webp" alt="Hijo de Rivas Gutiérrez trabajar en el taller" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1964.webp" alt="Hijo de Rivas Gutiérrez trabajar en el taller" class="img-fluid">
             </div>
          </div>
 
@@ -62,7 +62,7 @@ get_header();
                   Se adquiere maquinaria para trabajar con tubería, alambre, lámina y troqueles.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1969.webp" alt="Maquinaria para trabajar con tubería, alambre, lámina y troqueles" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1969.webp" alt="Maquinaria para trabajar con tubería, alambre, lámina y troqueles" class="img-fluid">
             </div>
          </div>
 
@@ -78,7 +78,7 @@ get_header();
                   Implementa procesos industriales de Galvanoplastia, equipos centrifuga, tanques rectificadores de corriente para baños galvano - electroliticos, de alta calidad y desarrolla productos de herrajes de argolla.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1973.webp" alt="Implementando procesos industriales de Galvanoplastia" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1973.webp" alt="Implementando procesos industriales de Galvanoplastia" class="img-fluid">
             </div>
          </div>
 
@@ -94,7 +94,7 @@ get_header();
                   Como complemento a los herrajes de argolla, se inician las primeras producciones en serie de fólderes plásticos para CARVAJAL y CIA. LTDA y Danaranjo naciendo el área de manufacturas Plasticas.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1974.webp" alt="se inician las primeras producciones en serie de fólderes plásticos" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1974.webp" alt="se inician las primeras producciones en serie de fólderes plásticos" class="img-fluid">
             </div>
          </div>
 
@@ -110,7 +110,7 @@ get_header();
                   Conscientes de la necesidad de diversificar la producción, se visualiza como un negocio próspero la producción de piezas plásticas inyectadas. Para esto se adquieren las primeras máquinas de inyección, ampliando el portafolio de productos con clientes como Manisol, Hilos Cadena y Varta.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1978.webp" alt="Primera máquina de inyección" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1978.webp" alt="Primera máquina de inyección" class="img-fluid">
             </div>
          </div>
 
@@ -126,7 +126,7 @@ get_header();
                   El fundador hace un viaje a Japón que cambia la proyección y forma de hacer negocios, visualizando el gran potencial del plástico en procesos productivos a gran escala y la robotización. Descubre la importancia del PP y sus aplicaciones y observa que los productos de oficina son producidos 100% plástico.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1979.webp" alt="Fundador en Japón" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1979.webp" alt="Fundador en Japón" class="img-fluid">
             </div>
          </div>
 
@@ -142,7 +142,7 @@ get_header();
                   Desarrollo de producto para alojar formas continuas para el cliente Carvajal generando su fidelización.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1980.webp" alt="Productos para el cliente Carvajal" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1980.webp" alt="Productos para el cliente Carvajal" class="img-fluid">
             </div>
          </div>
 
@@ -158,7 +158,7 @@ get_header();
                   Inicia la producción al sector industrial de línea blanca con productos inyectados; refrigeradores para el Cliente Inarca, actualmente Mabe.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1983.webp" alt="Productos inyectados de línea blanca" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1983.webp" alt="Productos inyectados de línea blanca" class="img-fluid">
             </div>
          </div>
 
@@ -174,7 +174,7 @@ get_header();
                   Dada la creciente demanda de productos escolares y de oficina en láminas plásticas rígidas, se hace indispensable la adquisición de más máquinas extrusoras para la producción de dichas láminas.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1984.webp" alt="Máquinas extrusoras para producción de láminas" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1984.webp" alt="Máquinas extrusoras para producción de láminas" class="img-fluid">
             </div>
          </div>
 
@@ -190,7 +190,7 @@ get_header();
                   Línea escolar y de oficina sigue creciendo con nuevos clientes. Legis con sus lineas Keeperline y Keepermate permiten la llegada a nuevos mercados.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1988.webp" alt="Línea escolar" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1988.webp" alt="Línea escolar" class="img-fluid">
             </div>
          </div>
 
@@ -208,7 +208,7 @@ get_header();
                   área de termoformado y ruteado.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1994.webp" alt="Proceso de impresión a calor, alta frecuencia, screen y tampografía" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1994.webp" alt="Proceso de impresión a calor, alta frecuencia, screen y tampografía" class="img-fluid">
             </div>
          </div>
 
@@ -224,7 +224,7 @@ get_header();
                   La relación socio - proveedor con Mabe y la creciente demanda de la línea No-Frost, promueven la ampliación de la planta física e industrial, hecho importante para la generación de empleo y desarrollo empresarial de la ciudad.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-1996.webp" alt="Ampliación de la planta física e industrial" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-1996.webp" alt="Ampliación de la planta física e industrial" class="img-fluid">
             </div>
          </div>
 
@@ -240,7 +240,7 @@ get_header();
                   Se obtiene la Certificación de Calidad ISO 9001: Diseño, fabricación y comercialización de productos plásticos (Inyectados, Extruidos, Manufacturados); prestación del servicio de inyección, termoformado, extrusión y manufactura. Diseño, fabricación y comercialización de moldes para la industria del plástico.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-2003.webp" alt="Recibiendo la Certificación de Calidad ISO 9001" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2003.webp" alt="Recibiendo la Certificación de Calidad ISO 9001" class="img-fluid">
             </div>
          </div>
 
@@ -256,7 +256,7 @@ get_header();
                   Se proyecta la empresa hacia otros mercados, se inicia el proceso de expansión y se compran terrenos en la zona industrial La Enea, dando paso a una nueva etapa de Riduco.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-2005.webp" alt="Proceso de expansión y se compran terrenos en la zona industrial La Enea" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2005.webp" alt="Proceso de expansión y se compran terrenos en la zona industrial La Enea" class="img-fluid">
             </div>
          </div>
 
@@ -272,7 +272,7 @@ get_header();
                   Se realiza la ampliación de planta 2 y se compran 9 máquinas inyectoras, de entre 700 a 1600 toneladas, para la fabricación de 11 millones de cajas plásticas para el lanzamiento de la nueva botella del cliente Bavaria - Sab Miller.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-2006.webp" alt="Empleados con máquina inyectora" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2006.webp" alt="Empleados con máquina inyectora" class="img-fluid">
             </div>
          </div>
 
@@ -289,7 +289,7 @@ get_header();
                   ser proveedor de Sofasa (Renault) en piezas plásticas de gran tamaño.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-2007.webp" alt="Máquinas para el sector automotriz" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2007.webp" alt="Máquinas para el sector automotriz" class="img-fluid">
             </div>
          </div>
 
@@ -333,7 +333,7 @@ get_header();
                   Riduco inaugura la planta IN-House en la ensambladora Renault en Medellín.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-2014.webp" alt="Nueva planta IN-House en Medellín" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2014.webp" alt="Nueva planta IN-House en Medellín" class="img-fluid">
             </div>
          </div>
 
@@ -349,7 +349,7 @@ get_header();
                   Nuevo producto para el mercado en el sector agro.
                </p>
 
-               <img src="http://localhost:10011/wp-content/uploads/2025/06/historia-2019.webp" alt="Nuevo producto para el sector agro" class="img-fluid">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/06/historia-2019.webp" alt="Nuevo producto para el sector agro" class="img-fluid">
             </div>
          </div>
 
