@@ -41,7 +41,7 @@ get_header();
 
                <ul class="text-white ps-0 ms-4">
                   <li>
-                     67 máquinas inyectoras con capacidad de 7 hasta 4.000 toneladas de presión de cierre, Y de 1 gramo hasta 18 kilogramos.
+                     69 máquinas inyectoras con capacidad de 7 hasta 4.000 toneladas de presión de cierre, Y de 1 gramo hasta 18 kilogramos.
                   </li>
 
                   <li>
@@ -158,6 +158,10 @@ get_header();
                      <tr>
                         <td class="fw-bold text-primary">PELD</td>
                         <td class="fw-bold text-primary">PEHD</td>
+                     </tr>
+                     <tr>
+                        <td class="fw-bold text-primary">PEI</td>
+                        <td class="fw-bold text-primary"></td>
                      </tr>
                   </tbody>
                </table>
